@@ -1,0 +1,209 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet'
+        type='text/css'>
+    <link rel="stylesheet" href="css/style_Login.css" media="screen" />
+    <script src="js/SaleswahCommon/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/android_toast.min.css" />
+    <script src="js/SaleswahCommon/android_toast.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script>
+        document.addEventListener("deviceready", onDeviceReady, false);
+        function onDeviceReady() {
+            var IsLogoutUser = JSON.parse(localStorage.getItem('IsLogoutUser'));
+            if (IsLogoutUser != null) {
+                document.addEventListener("backbutton", onBackKeyDown, false);
+            }
+//            else {
+//                document.removeEventListener("backbutton", onBackKeyDown, false);
+//            }
+
+        }
+        function onBackKeyDown() {
+            localStorage.removeItem('IsLogoutUser');
+            //document.removeEventListener("backbutton", onBackKeyDown, false);
+            navigator.app.exitApp();
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#txtPassword').val('');
+            $('#txtLogin').val('');
+            $('#txtShortAccountName').val('');
+            LoadLanguage('English');
+            LoadLabelLogin();
+            SetloadingImg();
+            document.getElementById('divLoading').style.display = 'none';
+        });
+    </script>
+    <script src="js/SaleswahCommon/GoogleApiIntegration.js" type="text/javascript"></script>
+    <script src="js/SaleswahCommon/FacebookApiIntegration.js" type="text/javascript"></script>
+    <script>
+        //Facebook integration
+        // Defaults to sessionStorage for storing the Facebook token
+        //        openFB.init({ appId: '1494626717428936' });
+        //openFB.init({ appId: '282552648524299' });
+        openFB.init({ appId: '752661914810486' });
+
+        //  Uncomment the line below to store the Facebook token in localStorage instead of sessionStorage
+        //  openFB.init({appId: 'YOUR_FB_APP_ID', tokenStore: window.localStorage});
+
+        function login() {
+
+            openFB.login(
+                function (response) {
+                    if (response.status === 'connected') {
+                        //alert('Facebook login succeeded, got access token: ' + response.authResponse.token);
+                        getInfo();
+                    } else {
+                        // alert('Facebook login failed: ' + response.error);
+                    }
+                }, { scope: 'email,read_stream,publish_stream' });
+        }
+
+        function getInfo() {
+            //alert('getinfo')
+            openFB.api({
+                path: '/me',
+                success: function (data) {
+
+                    ShowData(data);
+                    // alert(JSON.stringify(data));
+                    //                console.log(JSON.stringify(data));
+                    //                document.getElementById("userName").innerHTML = data.name;
+                    //                document.getElementById("userPic").src = 'http://graph.facebook.com/' + data.id + '/picture?type=small';
+                },
+                error: errorHandler
+            });
+        }
+
+        function ShowData(Data) {
+            // alert('showdata');
+            SocalSignIn(Data.email, 'Facebook account');
+            //alert(JSON.stringify(Data));
+            //            var RegistertxtFullName = document.getElementById('RegistertxtFullName');
+            //            if (RegistertxtFullName != null) {
+            //                RegistertxtFullName.value = Data.name;
+            //            }
+            //            var RegistertxtEmailAddress = document.getElementById('RegistertxtEmailAddress');
+            //            if (RegistertxtEmailAddress != null) {
+            //                RegistertxtEmailAddress.value = Data.email;
+            //            }
+        }
+
+        function logout() {
+            openFB.logout(
+                function () {
+                    // alert('Logout successful');
+                },
+                errorHandler);
+        }
+        function errorHandler() {
+            // alert('error');
+        }
+  
+
+    </script>
+</head>
+<body>
+    <!-- header:start -->
+    <header>
+<div class="logo">
+<img src="images/logo.png" align="right">
+</div>	
+</header>
+    <!-- header: end-->
+    <!-- mid section:start -->
+    <section>
+
+<!-- coulmn1 section:start -->
+
+
+<div class="logbannerbg">
+  <div class="container">
+    <div class="logbanner">
+     <!-- <h1>Sign Into your Saleswah Account</h1>-->
+   <div class="langimg"> <img src="images/lang-icon.png" width="51" height="50"></div>
+   <div class="langselbx">
+   <select id="LanguageSelectFromLogin">
+                <option selected="selected">English</option>
+               
+            </select></div>
+    
+          </div>
+  </div>
+</div>
+<div class="logsectionp">
+<div class="container1">
+<div class="one">
+<div class="frm1">
+<ul>
+<li>
+  <input id="txtShortAccountName" type="text"  value="" />
+</li>
+<li><input id="txtLogin" type="text"  value=""/></li>
+<li><input id="txtPassword" type="password"  value=""/></li>
+
+</ul>
+</div>
+<div style="clear:both"><a class="LoginBtnClass">
+<input id="btnLogin" type="submit" style="border: none; background: transparent; color: #fff; cursor: pointer; font-size: 15px; " name="btnSignIn">
+</a></div>
+<div class="logpasstxt" ><a href="ForgetPassword.htm" id="LoginanchorForgetPassword">|</a> &nbsp;&nbsp;&nbsp;<a href="register.html" id="LoginanchorCreateanAccount"></a></div>
+
+</div>
+
+
+<div class="two">
+<ul  id="form-section" >
+<li><label><input id="fbLogin" value="Sign in with Facebook" class="login-button facebook-login" type="button"></label></li>
+<li><label><input name="googlelogin" value="Sign in with Google" id="googlelogin" class="login-button google-login" type="submit"></label></li>
+<li style="display:none">
+    <input name="btnLinkedinSignin" value="Sign in with Linkedin" id="btnLinkedinSignin" class="login-button linkdin-login" type="submit">
+    <div style="float: left; margin-top: -86px;" class="linkedInDiv">
+        <div id="loginbadge">
+            <p>
+            </p>
+        </div>
+        
+    </div>
+</li>
+<li style="display:none">
+    <input name="loginWithMS" value="Sign in with Microsoft"  id="loginWithMS" class="login-button microsoft-login" type="submit">
+    
+</li>
+</li>
+</ul>
+</div>
+
+</div>
+<div class="loghgt"></div>
+<div class="logfooterbg">
+<div class="container2">
+<div class="logfooterln">
+<div class="logcopytxt" id="divLoginCopyright"></div>
+<div class="loglinks"><a href="#" id="Loginanchortermsandcondition"></a> | <a href="#" id="LoginanchorPrivacy"></a></div>
+</div>
+
+</div>
+
+</div>
+  <div class="loading_wrapper" id="divLoading">
+        <img id="imgLoading" class="loading_image" />
+    </div>
+
+<!-- coulmn2 section:end -->
+</body>
+<script src="js/SaleswahBusiness/ClientUser.js" type="text/javascript"></script>
+<script src="js/SaleswahCommon/FunctionCall.js" type="text/javascript"></script>
+<script src="js/SaleswahCommon/IdToFunctionMapper.js" type="text/javascript"></script>
+<script src="js/SaleswahCommon/LanguageSelector.js" type="text/javascript"></script>
+<script src="js/SaleswahBusiness/Utility.js" type="text/javascript"></script>
+
+</html>

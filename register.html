@@ -1,0 +1,349 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Big Deal</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet'
+        type='text/css'>
+    <script src="js/SaleswahCommon/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/styleRegister.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/android_toast.min.css" />
+    <script src="js/SaleswahCommon/android_toast.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        document.addEventListener("deviceready", onDeviceReady, false);
+        function onDeviceReady() {
+            checkConnection();
+        }
+
+        function checkConnection() {
+            var LoadLabelsByLanguage = JSON.parse(localStorage.getItem('LoadLabelsByLanguage'));
+            var networkState = navigator.connection.type;
+
+            if (networkState == Connection.UNKNOWN || networkState == Connection.NONE) {
+                ShowMessage(LoadLabelsByLanguage.PleaseCheckyourInternetConnection);
+            }
+        }
+
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            LoadLanguage('English');
+            SetloadingImg();
+            LoadLabelOfRegister();
+            LoadPlaceHolders();
+            GetCountrylistforRegisterpPage();
+
+
+        });
+        //(k > 64 && k < 91) || (k > 96 && k < 123) || k == 8 || k == 32 || k == 9 || (k >= 48 && k <= 57)
+        function BlockSpecialCharacter(evt) {
+            evt = (evt) ? evt : window.event;
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
+            if ((charCode > 64 && charCode < 91) || (charCode > 96 && charCode < 123) || charCode == 8 || charCode == 32 || charCode == 9 || (charCode >= 48 && charCode <= 57)) {
+                return true;
+            }
+            return false;
+        }
+    </script>
+   
+    <script src="js/SaleswahCommon/GoogleApiIntegration.js" type="text/javascript"></script>
+    <script src="js/SaleswahCommon/FacebookApiIntegration.js" type="text/javascript"></script>
+    <script>
+        //Facebook integration
+
+        // 282552648524299
+        //        openFB.init({ appId: '1494626717428936' });
+        //openFB.init({ appId: '282552648524299' });
+        openFB.init({ appId: '752661914810486' });
+
+        //  Uncomment the line below to store the Facebook token in localStorage instead of sessionStorage
+        //  openFB.init({appId: 'YOUR_FB_APP_ID', tokenStore: window.localStorage});
+
+        function login() {
+           
+            openFB.login(
+                function (response) {
+                    if (response.status === 'connected') {
+                        //alert('Facebook login succeeded, got access token: ' + response.authResponse.token);
+                        getInfo();
+                    } else {
+                        //alert('Facebook login failed: ' + response.error);
+                    }
+                }, { scope: 'email,read_stream,publish_stream' });
+        }
+
+        function getInfo() {
+            openFB.api({
+                path: '/me',
+                success: function (data) {
+                    ShowData(data);
+//                    console.log(JSON.stringify(data));
+//                    document.getElementById("userName").innerHTML = data.name;
+//                    document.getElementById("userPic").src = 'http://graph.facebook.com/' + data.id + '/picture?type=small';
+                },
+                error: errorHandler
+            });
+        }
+        function ShowData(Data) {
+//             alert('showdata');
+//            alert(JSON.stringify(Data));
+            var RegistertxtFullName = document.getElementById('RegistertxtFullName');
+            if (RegistertxtFullName != null) {
+                RegistertxtFullName.value = Data.name;
+            }
+            var RegistertxtEmailAddress = document.getElementById('RegistertxtEmailAddress');
+            if (RegistertxtEmailAddress != null) {
+                RegistertxtEmailAddress.value = Data.email;
+            }
+        }
+        function share() {
+            openFB.api({
+                method: 'POST',
+                path: '/me/feed',
+                params: {
+                    message: document.getElementById('Message').value || 'Testing Facebook APIs'
+                },
+                success: function () {
+                    alert('the item was posted on Facebook');
+                },
+                error: errorHandler
+            });
+        }
+
+        function revoke() {
+            openFB.revokePermissions(
+                function () {
+                    alert('Permissions revoked');
+                },
+                errorHandler);
+        }
+
+        function logout() {
+            openFB.logout(
+                function () {
+                    alert('Logout successful');
+                },
+                errorHandler);
+        }
+
+        function errorHandler(error) {
+            alert(error.message);
+        }
+//        // Defaults to sessionStorage for storing the Facebook token
+//        openFB.init({ appId: '1494626717428936' });
+
+//        //  Uncomment the line below to store the Facebook token in localStorage instead of sessionStorage
+//        //  openFB.init({appId: 'YOUR_FB_APP_ID', tokenStore: window.localStorage});
+
+//        function login() {
+
+//            openFB.login(
+//                function (response) {
+//                    if (response.status === 'connected') {
+//                        //alert('Facebook login succeeded, got access token: ' + response.authResponse.token);
+//                        getInfo();
+//                    } else {
+//                        // alert('Facebook login failed: ' + response.error);
+//                    }
+//                }, { scope: 'email,read_stream,publish_stream' });
+//        }
+
+//        function getInfo() {
+//            //alert('getinfo')
+//            openFB.api({
+//                path: '/me',
+//                success: function (data) {
+
+//                    ShowData(data);
+//                    // alert(JSON.stringify(data));
+//                    //                console.log(JSON.stringify(data));
+//                    //                document.getElementById("userName").innerHTML = data.name;
+//                    //                document.getElementById("userPic").src = 'http://graph.facebook.com/' + data.id + '/picture?type=small';
+//                },
+//                error: errorHandler
+//            });
+//        }
+
+//        function ShowData(Data) {
+//            // alert('showdata');
+//            //alert(JSON.stringify(Data));
+//            var RegistertxtFullName = document.getElementById('RegistertxtFullName');
+//            if (RegistertxtFullName != null) {
+//                RegistertxtFullName.value = Data.name;
+//            }
+//            var RegistertxtEmailAddress = document.getElementById('RegistertxtEmailAddress');
+//            if (RegistertxtEmailAddress != null) {
+//                RegistertxtEmailAddress.value = Data.email;
+//            }
+//        }
+
+//        function logout() {
+//            openFB.logout(
+//                function () {
+//                    // alert('Logout successful');
+//                },
+//                errorHandler);
+//        }
+//        function errorHandler() {
+//            // alert('error');
+//        }
+  
+
+    </script>
+    <!--<script src="https://js.live.net/v5.0/wl.js" type="text/javascript" language="javascript"></script>
+    <script type="text/javascript" language="javascript">
+        //microsoft
+        var EmailAddrss = '';
+        function login2() {
+       
+            GetMail2();
+            if (EmailAddrss == '')
+                return false;
+            else
+                return true;
+        }
+
+        WL.Event.subscribe("auth.login", function (e) {
+
+            if (EmailAddrss != '') {
+                window.location.href = 'login.aspx?Email=' + EmailAddrss;
+            }
+
+        });
+
+
+        function GetMail2() {
+           
+            WL.init({
+                client_id: "0000000048108C40",
+                redirect_uri: "http://localhost"
+                // redirect_uri: "http://crm.saleswah.com:51559/callback.aspx"
+            });
+
+            WL.login({ "scope": "wl.signin,wl.emails,wl.basic,wl.work_profile" }).then(
+    function (response) {
+        showUserData2();
+    },
+    function (response) {
+        log("Could not connect, status = " + response.status);
+    }
+);
+        }
+
+        function showUserData2() {
+            //alert('login2')
+            WL.api({ path: "/me", method: "GET" }).then(
+        function (response) {
+
+            var obj = JSON.stringify(response);
+
+            var contact = JSON.parse(obj);
+
+            //alert(JSON.stringify(contact));
+            var companyname;
+
+            for (var index in contact.work) {
+                var employerdetail = contact.work[index];
+                companyname = employerdetail.employer.name;
+            }
+
+            
+
+
+        },
+        function (response) {
+            log("API call failed: " + JSON.stringify(response.error).replace(/,/g, "\n"));
+        }
+    );
+        }
+
+        function log(message) {
+
+        }
+           
+    </script>-->
+</head>
+<body>
+    <!-- header:start -->
+    <header>
+<div class="logo">
+<img src="images/logo.png" align="right">
+</div>	
+</header>
+    <!-- header: end-->
+    <!-- mid section:start -->
+    <section>
+<div class="bannerbg">
+
+<div class="container">
+<div class="banner">
+<h1 id="RegisterH1TryAllFeatures"></h1>
+<h2 id="RegisterH2KeepItFree"></h2>
+</div>
+</div></div>
+
+
+<!-- coulmn1 section:start -->
+<div class="loading_wrapper" id="divLoading">
+    <img id="imgLoading" class="loading_image"/>
+</div>
+
+<div class="sectionp">
+    <div class="container1">
+        <div class="one">
+            <div class="frm1">
+            <ul>
+            <li><input id="RegistertxtFullName" value="" placeholder="" type="text" onkeypress="return BlockSpecialCharacter(event)"/></li>
+            <li><input id="RegistertxtCompanyName" value="" placeholder="" type="text" onkeypress="return BlockSpecialCharacter(event)" /></li>
+            <li> <select id="Registerddlcountry" name="select2"></select>
+            </ul>
+            </div>
+            <div class="frm2">
+            <ul>
+            <li><input id="RegistertxtEmailAddress" value="" placeholder="" type="text" /></li>
+            </ul>
+             </div>
+            <div style="clear:both"><a class="LoginBtnClass">
+            <input id="btnRegisterSignIn" type="submit" style="border: none; background: transparent; color: #fff; cursor: pointer; font-size: 15px; " >
+            </a>
+            <div class="loglinks"><a id="RegisterBackToSignIn"></a> </div></div>
+        </div>
+        <div class="two">
+            <ul  id="form-section" >
+            <li><label><input id="RegisterfbLogin" value="" class="login-button facebook-login" type="button"></label></li>
+            <li><label><input name="googlelogin" value="" id="Registergooglelogin" class="login-button google-login" type="submit"></label></li>
+            <li style="display:none">
+                <input name="btnLinkedinSignin" value="" id="RegisterbtnLinkedinSignin" class="login-button linkdin-login" type="submit" onclick="LinkedInOAuth.kickOffFlow()">
+                <div style="float: left; margin-top: -86px;" class="linkedInDiv">
+                    <div id="loginbadge">
+                        <p>
+                        </p>
+                    </div>
+        
+                </div>
+            </li>
+            <li style="display:none">
+                <input name="loginWithMS" value="Sign in with Microsoft"  id="RegisterloginWithMS" class="login-button microsoft-login" type="submit" onclick="login2();">
+    
+            </li>
+            </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="container2">
+    <div class="footerln" id="RegisterFooterIfYourBusiness"></div>
+    </div>
+</div>
+<!-- coulmn2 section:end -->
+</body>
+<script src="js/SaleswahBusiness/Register.js" type="text/javascript"></script>
+<script src="js/SaleswahCommon/FunctionCall.js" type="text/javascript"></script>
+<script src="js/SaleswahCommon/LanguageSelector.js" type="text/javascript"></script>
+<script src="js/SaleswahBusiness/Utility.js" type="text/javascript"></script>
+</html>

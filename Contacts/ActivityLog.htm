@@ -1,0 +1,259 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="../ModuleCSS/idangerous.swiper.css">
+    <link rel="stylesheet" type="text/css" href="../ModuleCSS/styles_d.css" />
+    <link rel="stylesheet" type="text/css" href="../ModuleCSS/ContactCSS.css" />
+    <script src="../js/SaleswahCommon/jquery-2.1.1.min.js"></script>
+       <link rel="stylesheet" type="text/css" href="../css/android_toast.min.css" />
+    <script src="../js/SaleswahCommon/android_toast.min.js"></script>
+    <link href="../css/AddNewFunction.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="../css/android_toast.min.css" />
+    <script src="../js/SaleswahCommon/android_toast.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+     <style>
+        @media (max-width: 320px)
+        {
+            .swiper-container {   height: 329px !important; width: 96%; z-index:2 } 	
+           
+            
+            
+        }
+        .selected
+        {
+            background-color: #E6E8C2;
+        }
+    </style>
+    
+    <script type="text/javascript" charset="utf-8">
+        document.addEventListener("deviceready", onDeviceReady, false);
+        function onDeviceReady() {
+            checkConnection();
+        }
+
+        function checkConnection() {
+            var LoadLabelsByLanguage = JSON.parse(localStorage.getItem('LoadLabelsByLanguage'));
+            var networkState = navigator.connection.type;
+
+            if (networkState == Connection.UNKNOWN || networkState == Connection.NONE) {
+                ShowMessage(LoadLabelsByLanguage.PleaseCheckyourInternetConnection);
+            }
+        }
+        function IsDoubleQuote(evt) {
+            evt = (evt) ? evt : window.event;
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
+            if (charCode == 34) {
+
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('.detail_nav1').css('background-color', '#E6E8C2');
+            $('.detail_nav1').css('border-radius', '5px');
+
+            LoadActivityLogLabel();
+            IWantToLog();
+            LoadActivityLogSlider();
+        });
+
+        
+
+    </script>
+</head>
+<body>
+    <div>
+        <div class="dealheader">
+            <a href="../dashboard.html">
+                <div class="logo">
+                    <div class="hedlft1">
+                        @</div>
+                    <div class="hedlft2">
+                        CRM</div>
+                </div>
+            </a>
+            <div class="hedmid" id="ActivityDetailHeader">
+            </div>
+            <div class="hedrht">
+                <img src="images_d/contact.png" />
+            </div>
+        </div>
+        <div class="main-nav">
+            <!--Nav start-->
+            <div class="device">
+                <a class="arrow-left" href="#"></a><a class="arrow-right" href="#"></a>
+                <div class="swiper-container" style="height: 77px;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div>
+                                <div class="detail_nav1">
+                                    <figure>
+                                        <a href="#" onclick="SlideToPage(0);">
+                                            <img src="images_d/Contact-Details.png">
+                                            <figcaption id="ActivityLogHeaderLabelDetail"></figcaption></a>
+                                    </figure>
+                                </div>
+                                <div class="detail_nav2">
+                                    <figure>
+                                        <a href="#" onclick="SlideToPage(1);">
+                                            <img src="images_d/contact-dashBoard.png">
+                                            <figcaption id="ActivityLogHeaderLabelTaskOrDeal"></figcaption></a>
+                                    </figure>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="pagination">
+                </div>
+            </div>
+            <!--NAv End-->
+        </div>
+    </div>
+    <div class="maind">
+        <div class="swiper-container swiper-parent" style="margin-top: 25px;">
+            <div class="pagination pagination-parent">
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-container swiper-nested-Activitylog">
+                        <div class="pagination pagination-nested">
+                        </div>
+                        <!-- <div class="swiper-wrapper">-->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide ">
+                                <div class="dtform mgtp">
+                                    <ul>
+                                        <li>
+                                            <p class="lab">
+                                                <label id="ContactActivityLogLabelActivityName">
+                                                </label>
+                                            </p>
+                                            <p class="inp">
+                                                <input id="ContactActivityLogtxtActivityName" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)"/>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ">
+                                <div class="dtform mgtp">
+                                    <ul>
+                                        <li>
+                                            <p class="lab">
+                                                <label id="ContactActivityLogLabelContactName">
+                                                </label>
+                                            </p>
+                                            <p class="inp">
+                                                <input type="text" id="ContactActivityLogtxtContactName" value="" readonly='true' onkeypress="return IsDoubleQuote(event)"/>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ">
+                                <div class="dtform mgtp">
+                                    <ul>
+                                        <li>
+                                            <p class="lab">
+                                                <label id="ContactActivityLogLabelRelatedto">
+                                                </label>
+                                            </p>
+                                            <p class="inp">
+                                              <select id="ContactActivityLogDDlRelatedto" name="select2">
+                                                 <option selected="selected">Task</option>
+                                                  <option>Deal</option>
+                                                </select>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ">
+                                <div class="dtform mgtp">
+                                    <ul>
+                                        <li>
+                                            <p class="lab">
+                                                <label id="ContactActivityLogLabelActivityDate">
+                                                </label>
+                                            </p>
+                                            <p class="inp">
+                                                <input id="ContactActivityLogtxtActivityDate" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)"/>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ">
+                                <div class="dtform mgtp">
+                                    <ul>
+                                        <li>
+                                            <p class="lab">
+                                                <label id="ContactActivityLogLabelActivityDetails">
+                                                </label>
+                                            </p>
+                                            <p class="inp">
+                                             <input id="ContactActivityLogtxtActivityDetails" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)"/>
+                                                
+                                                <!-- <select id="DealDetailsddlBudgetStage" name="select2">
+                                                </select>-->
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-container swiper-nested-ActivitylogList">
+                        <div class="pagination pagination-nested">
+                        </div>
+                        <div class="swiper-wrapper" id="ActivityLogUlDetails">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!--GOTO Menu bar div start -->
+      
+        <footer class="footer">
+        <div class="footerc"> 
+         <label id="ActivityLogBtnSaveActivity" style="background-color:Transparent !important; margin-right:20%;" >
+             <img src="../images/save.png" /></label>
+             
+           
+        </div>
+    </footer>
+        <script src="../js/idangerous.swiper.min.js"></script>
+        <script>
+            var mySwiper = new Swiper('.swiper-container', {
+                pagination: '.pagination',
+
+                paginationClickable: true
+            })
+
+           
+        </script>
+</body>
+    <script type="text/javascript" charset="utf-8" src="../js/SaleswahCommon/Common.js"></script>
+
+<script src="../js/SaleswahBusiness/ActivityLog.js" type="text/javascript"></script>
+
+<script src="../js/SaleswahCommon/jquery-2.1.1.min.js" type="text/javascript"></script>
+
+<script src="../js/SaleswahCommon/FunctionCall.js" type="text/javascript"></script>
+
+<script src="../js/SaleswahBusiness/Utility.js" type="text/javascript"></script>
+</html>

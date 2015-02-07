@@ -1,0 +1,30 @@
+﻿
+   .dealheader{float:left;	width:100%; height:50px;  background-image: -webkit-gradient(
+ linear,
+ left top,
+ left bottom,
+ color-stop(0,#D9FED9),
+ color-stop(1, #ABEDAB)
+);
+background-image: -o-linear-gradient(bottom,#D9FED9 0%, #ABEDAB 100%);
+background-image: -moz-linear-gradient(bottom,#D9FED9 0%, #ABEDAB 100%);
+background-image: -webkit-linear-gradient(bottom,#D9FED9 0%, #ABEDAB 100%);
+background-image: -ms-linear-gradient(bottom,#D9FED9 0%, #ABEDAB 100%);
+background-image: linear-gradient(to bottom,#D9FED9 0%, #ABEDAB 100%);} 
+        .dtform {color:#00A501;}
+        .footer { background-color:#00A501} 
+.dlist ul li a h4{color:#00A501; text-decoration:none;}
+.dtform {float:left;color:#00A501;font-size:13px; width:90%; clear:both; margin:0px 3%}	
+.footer{ width:100%; margin-top: 25px; background-color:#00A501; height:18px ; padding:8px 0px 15px 0px; clear:both;  bottom:0px; z-index:5; text-align:center;}
+.active_page{ background:#00A501; color:white !important; }
+.dbadmin {float:left;color:#00A501;font-size:13px; width:90%; clear:both; margin:0px 3% }	
+ progress::-webkit-progress-bar {  background-color:#00A501; }   
+ progress::-moz-progress-bar {    background-color:#00A501; } 
+ .ui-autocomplete li{ font-size:17px; font-weight:normal; color:#00A501; line-height:30px ;}
+ .dlist ul{ padding-bottom:0px !important;	}
+ @media (max-width: 320px) {
+
+.container_height{height: 56px !important;}
+
+}
+ 

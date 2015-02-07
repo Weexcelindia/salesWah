@@ -1,0 +1,84 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet'
+        type='text/css'>
+    <link rel="stylesheet" href="css/style_Login.css" media="screen" />
+    <script src="js/SaleswahCommon/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/android_toast.min.css" type="text/css">
+    <script src="js/SaleswahCommon/android_toast.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            LoadLanguage('English');
+            LoadLabelLogin();
+        });
+    </script>
+</head>
+<body>
+    <!-- header:start -->
+    <header>
+<div class="logo">
+<img src="images/logo.png" align="right">
+</div>	
+</header>
+    <div class="logbannerbg">
+        <div class="container">
+            <div class="banner">
+                <h1 style="color:#fff;font-size:33px;" id="OpenAuthVerifyHeader">
+                    </h1>
+            </div>
+        </div>
+    </div>
+    <div class="logsectionp">
+        <div class="container1">
+            <div class="one">
+                <div class="frm1">
+                    <ul>
+                        <li>
+                            <input id="txtShortAccountName" type="text" value="" />
+                        </li>
+                        <li>
+                            <input id="txtLogin" type="text" value="" /></li>
+                        <li>
+                            <input id="txtPassword" type="password" value="" /></li>
+                    </ul>
+                </div>
+                <div style="clear: both">
+                    <a class="LoginBtnClass">
+                        <input id="btnVerify" type="submit" style="border: none; background: transparent;
+                            color: #fff; cursor: pointer; font-size: 15px;" name="btnVerify">
+                    </a>
+                </div>
+                <div class="logpasstxt">
+                    <a href="ForgetPassword.htm" id="LoginanchorForgetPassword">
+                        |</a> &nbsp;&nbsp;&nbsp;<a href="register.html" id="LoginanchorCreateanAccount"></a></div>
+            </div>
+        </div>
+        <div class="loghgt">
+        </div>
+        <div class="logfooterbg">
+            <div class="container2">
+                <div class="logfooterln">
+                    <div class="logcopytxt" id="divLoginCopyright">
+                    </div>
+                    <div class="loglinks">
+                        <a href="http://www.saleswah.com/index.php/terms-of-services/" id="Loginanchortermsandcondition">
+                        </a>| <a href="http://www.saleswah.com/privacy/" id="LoginanchorPrivacy"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- coulmn2 section:end -->
+</body>
+<script src="js/SaleswahBusiness/ClientUser.js" type="text/javascript"></script>
+<script src="js/SaleswahCommon/FunctionCall.js" type="text/javascript"></script>
+<script src="js/SaleswahCommon/IdToFunctionMapper.js" type="text/javascript"></script>
+<script src="js/SaleswahCommon/LanguageSelector.js" type="text/javascript"></script>
+<script src="js/SaleswahBusiness/Utility.js" type="text/javascript"></script>
+
+</html>

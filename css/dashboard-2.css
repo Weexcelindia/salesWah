@@ -1,0 +1,124 @@
+@media only screen and (max-width: 480px){
+	.dealheader_dash{width:100%}
+	.index_main{ clear:both;}
+.deal_dashboard3_right {
+        color: #04156a;
+    float: left;
+    margin-bottom: -20px;
+    margin-left: 52px;
+    margin-top: 2px;
+    text-align: center;
+    width: 31%;
+}
+
+.deal_dashboard3_left img{
+width:67px;
+}
+.deal_dashboard3_right img{
+width:67px;
+}
+.deal_dashboard3_left {
+     color: #333333;
+    float: left;
+    margin-left: 67px;
+    text-align: center;
+    width: 3%;
+}
+
+.deal_dashboard2_left {
+  color: #9f9700;
+    float: left;
+    margin-left: -5px;
+    text-align: center;
+    width: 32%;;
+}
+
+.deal_dashboard2_left img{
+width: 67px;
+}
+
+
+.deal_dashboard2_right {
+     color: #004b8e;
+    float: none;
+    margin-bottom: 49px;
+    margin-left: 24px !important;
+    text-align: center;
+    width: 40%;
+}
+.deal_dashboard2_right img{
+width: 67px;
+}
+
+.deal_dashboard2_middle {
+       color: #ff0c0c;
+    float: left;
+    margin-bottom: 12px;
+    margin-left: -37px;
+    text-align: center;
+    width: 43%;
+}
+.deal_dashboard2_middle img {
+  margin-left: -13px;
+    width: 67px;
+}
+
+.deal_dashboard2_middle_right {
+    color: #9824ff;
+    float: left;
+    margin-bottom: 45px;
+    margin-left: -27px;
+    text-align: center;
+    width: 43px;
+}
+.deal_dashboard2_middle_right img {
+width:67px;
+}
+
+.deal_dashboard2_bottom {
+         color: #d52943;
+    float: right;
+    margin-left: 26px;
+    margin-right: 187px;
+    margin-top: -8px;
+    text-align: center;
+    width: 65%;
+}
+.deal_dashboard2_bottom img{
+width:99%;
+}
+
+.deal_dashboard2_bottom_right img {
+width:67px;
+}
+
+.deal_dashboard2_bottom_right {
+   color: #046a3b;
+    float: right;
+    margin-left: -94px;
+    margin-top: -88px;
+    text-align: center;
+    width: 170%;
+
+}
+
+.deal_dashboard2_bottom_right img {
+width:67px;
+
+}
+.deal_dashboard2_bottom img {
+width:67px;
+}
+.device .arrow-right {
+    background: url("images/arrows.png") no-repeat scroll left bottom black;
+    height: 30px;
+    margin-right: 268px;
+    margin-top: -57px;
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    width: 17px;
+}
+
+
+}

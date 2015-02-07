@@ -1,0 +1,658 @@
+@charset "utf-8";
+/* CSS Document */
+body { font-family:Arial, Helvetica, sans-serif !important;
+	margin:0 auto;
+background-image: url("images/backgrond.png");
+	}
+	
+	
+.dealheader_dash{float:left;	width:100%; height:50px;  background-image: -webkit-gradient(
+ linear,
+ left top,
+ left bottom,
+ color-stop(0, #A2E6CE),
+ color-stop(1, #ffffff)
+);
+background-image: -o-linear-gradient(bottom, #A2E6CE 0%, #ffffff 100%);
+background-image: -moz-linear-gradient(bottom, #A2E6CE 0%, #ffffff 100%);
+background-image: -webkit-linear-gradient(bottom, #A2E6CE 0%, #ffffff 100%);
+background-image: -ms-linear-gradient(bottom, #A2E6CE 0%, #ffffff 100%);
+background-image: linear-gradient(to bottom, #A2E6CE 0%, #ffffff 100%);} 
+.logo{ float:left; width:20%; padding:0px 0px 0px 25px ; }
+.hedlft1 { float:left; width:100%; font-size:23px; color:#808185; height:27px}
+.hedlft2{ float:left; width:100%; font-size:14px;color:#808185; 	}	 
+.hedmid{float:left; width:38%; font-size:16px; padding:15px 0px 0px  0px;  height:35px; text-align:center}  
+.hedrht{float:right; width:20%; font-size:16px; padding:6px 0px 0px  0px; height:43px; } 
+
+
+.footer{ width:100%; margin-top: 25px; background-color:#A2E6CE; height:18px ; padding:8px 0px 15px 0px; clear:both;  position:fixed; bottom:0px; z-index:5; text-align: center;}
+.footerc{margin:0px auto; width:80%;}	
+.footer img{   padding:0px 5% 0px 5% }
+.footer_left {  float: left;   text-align: right;  width: 75%; }
+.footer_right {   text-align: right;  }
+
+
+.index_main{ margin-top:10px !important; clear:both}
+.deal_center{
+margin-top:100px;
+}
+.swiper-slide {
+}
+.deal_header{
+	width:100%;
+	background-image: -webkit-gradient(
+ linear,
+ left top,
+ left bottom,
+ color-stop(0,#90e1c5#f5fcfa),
+ color-stop(1, #f5fcfa)
+);
+background-image: -o-linear-gradient(bottom, #90e1c5 0%, #f5fcfa 100%);
+background-image: -moz-linear-gradient(bottom, #90e1c5 0%, #f5fcfa 100%);
+background-image: -webkit-linear-gradient(bottom, #90e1c5 0%, #f5fcfa 100%);
+background-image: -ms-linear-gradient(bottom, #90e1c5 0%, #f5fcfa 100%);
+background-image: linear-gradient(to bottom, #90e1c5 0%, #f5fcfa 100%);
+	margin:0 auto;
+	padding-left:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	}
+	
+.deal_dashboard{
+	width:100%;
+	margin:0 auto;
+	}
+	
+.deal_dashboard1_top{
+	width:100%;
+	
+}
+.deal_dashboard1_left{
+	 color: red;
+    float: left;
+    
+    text-align: center;
+    width: 50%;
+	
+}
+.deal_dashboard1_right{
+	 color: green;
+   float: left;
+    text-align: center;
+    width: 50%;
+  margin-bottom: 35px;
+	
+}
+.deal_dashboard1_right img{}
+
+.deal_dashboard1_middle{
+	 color: purple;
+    float: left;
+   margin-bottom:12px;
+    text-align: center;
+    width: 50%;
+	
+}
+.deal_dashboard1_middle_right{
+	 color: orange;
+   float: left;
+    text-align: center;
+    width: 50%;
+	margin-bottom: 40px;
+	
+}
+
+/*.deal_dashboard1_bottom {
+       color: #01255F;
+    float: right;
+    margin-left: 8px;
+    margin-right: 324px;
+    text-align: center;
+    width: 21%;
+}*/
+
+.deal_dashboard1_bottom{
+	 color: #01255F;
+     float:right;   
+    text-align: center;
+    width: 50%;
+	
+} 
+.deal_dashboard1_bottom_right{
+	 color: red;
+    float:right;
+    text-align: center;
+    width: 50%;;
+	
+}
+
+.deal_dashboard1_top{
+	width:100%;
+	
+}
+.deal_dashboard2_left{
+	 color: #9f9700;
+    float: left;
+    margin-bottom: -1px;
+    text-align: center;
+    width: 50%;
+	
+}
+
+.deal_dashboard2_right{
+	 color: #004b8e;
+   float: left;
+    text-align: center;
+    width: 50%;
+ margin-bottom: 35px;
+	
+}
+.deal_dashboard2_done{
+	 color: #E4320E;
+   float: left;
+    text-align: center;
+    width: 50%;
+ margin-bottom: 35px;
+	
+}
+.deal_dashboard2_dtwo{
+	 color: #00A501;
+   float: left;
+    text-align: center;
+    width: 50%;
+ margin-bottom: 35px;
+	
+}
+
+.deal_dashboard2_one{
+	 color: #DD9216;
+   float: left;
+    text-align: center;
+    width: 50%;
+ margin-bottom: 35px;
+	
+}
+.deal_dashboard3_one{
+	 color: #006681;
+   float: left;
+    text-align: center;
+    width: 50%;
+ margin-bottom: 35px;
+	
+}
+.deal_dashboard2_twone{
+	 color: #006681;
+   float: left;
+    text-align: center;
+    width: 50%;
+ margin-bottom: 35px;
+	
+}
+
+.deal_dashboard2_two{
+	 color: #2D3437;
+    float: left;
+   margin-bottom:12px;
+    text-align: center;
+    width: 50%;
+	
+}
+.deal_dashboard3_two{
+	 color: #018300;
+    float: left;
+   margin-bottom:12px;
+    text-align: center;
+    width: 50%;
+	
+}
+
+.deal_dashboard2_three{
+	 color: #970F00;
+   float: left;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 40px;
+	
+}
+.deal_dashboard2_thee{
+	 color: #181818;
+   float: left;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 40px;
+	
+}
+.deal_dashboard2_thre{
+    color:#4A2AA4;
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+.deal_dashboard2_for{
+	 color: #01255F;
+
+    float: left;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 50%;
+   
+	
+}
+.deal_dashboard2_four{
+	 color: #168417;
+    float:right;
+    text-align: center;
+    width: 50%;
+	
+}
+.deal_dashboard1_six{
+	 color: #6D145E;
+     float:right;   
+    text-align: center;
+    width: 50%;
+	
+} 
+
+.deal_dashboard2_five {
+	color:#FF2D6C;
+    float: right;
+
+    text-align: center;
+    width: 50%;
+}
+
+.deal_dashboard2_fifth{
+	 color: #D00719;
+     float:right;
+   
+    text-align: center;
+    width: 50%;
+	
+}
+
+.deal_dashboard2_eleven{
+	 color: #9C0096;
+     float:right;   
+    text-align: center;
+    width: 50%;
+	
+}
+.deal_dashboard2_twelve{
+	 color: #1A3C90;
+    float:right;
+    text-align: center;
+    width: 50%;
+	
+}
+.deal_dashboard2_twenty{
+	 color: #14702C;
+    float: left;
+    
+    text-align: center;
+    width: 50%;
+	
+}
+
+
+.deal_dashboard2_middle{
+	 color: #ff0c0c;
+    float: left;
+   margin-bottom:12px;
+    text-align: center;
+    width: 50%;
+	
+}
+.deal_dashboard2_middle_right{
+	 color: #9824ff;
+   float: left;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 40px;
+	
+}
+.deal_dashboard2_bottom{
+	 color: #d52943;
+     float:right;
+   
+    text-align: center;
+    width: 50%;
+	
+}
+.deal_dashboard2_bottom_right{
+	 color: #046a3b;
+    float:right;
+    text-align: center;
+    width: 50%;;
+	
+}
+
+.deal_dashboard3_left{
+	 color: #BE2514;  
+    float: left;
+    margin-left: -9px;
+    text-align: center;
+    width: 50%;
+}
+.deal_dashboard3_right{
+	color: #04156a;
+    float: left;
+    margin-bottom: -20px;
+    margin-left: 285px;
+    margin-top: -114px;
+    text-align: center;
+    width: 50%;
+	
+}
+
+*{
+	margin:0;
+	padding-left:-1px;
+}
+
+#container{
+	width:604px;
+	height:453px;
+	position:relative;
+}
+
+#container .prevButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('images/buttons.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:left top;
+	left:0
+}
+
+#container .prevButton:hover{ background-position:left bottom;left:0;}
+
+#container .nextButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('images/buttons.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:right top;
+	right:0
+}
+
+#container .nextButton:hover{background-position:right bottom;right:0;}
+
+#container ul{
+	width:604px;
+	height:453px;
+	list-style:none outside none;
+	position:relative;
+	overflow:hidden;
+}
+
+#container li:first-child{
+	display:list-item;
+	position:absolute;
+}
+
+#container li{
+	position:absolute;
+	display:none;
+}
+
+
+
+.device {	
+     font-size:20px;	
+    margin-top: 120px !important;
+    height: 443px;
+    margin: 5px auto;
+    position: relative;
+    width: 580px;
+}
+.device .arrow-left {
+  background:url("../images/arrows.png")  no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 30px;
+    left: 10px;
+    margin-left: 42px;
+    margin-top: -15px;
+    position: absolute;
+    top: 50%;
+    width: 18px;
+   
+}
+.device .arrow-right {
+  background: url("../images/arrows.png") no-repeat left bottom;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -15px;
+  width: 17px;
+  height: 30px;
+  
+}
+.swiper-container {
+    height: 500px;
+    width: 640px;
+}
+.content-slide {
+  padding: 20px;
+  color: #fff;
+}
+.title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.pagination {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  bottom:5px;
+  width: 100%;
+display:none;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #999;
+  box-shadow: 0px 1px 2px #555 inset;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.swiper-active-switch {
+  background: #fff;
+}
+
+
+
+@media only screen and (max-width: 480px){
+
+	
+	
+	
+	.device {
+    font-size:15px;	
+    margin-top: 120px !important;
+   height: 443px;
+    margin: 5px auto;
+    position: relative;
+    width: 100%;
+}
+.swiper-container {
+    height: 467px;
+    width: 100%;
+}
+
+.device .arrow-left {
+    background: url("../images/arrows.png") no-repeat scroll left top ;
+    height: 30px;
+    left: 10px;
+    margin-left: 12px;
+    margin-top: -57px;
+    position: absolute;
+    top: 50%;
+    width: 18px;
+}
+.device .arrow-right {
+    background: url("../images/arrows.png") no-repeat scroll left bottom ;
+    height: 30px;    
+    margin-top: -57px;
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    width: 17px;
+}
+
+#container .prevButton {
+     background: #F00;
+    cursor: pointer;
+    height: 72px;
+    left: 0;
+    margin-left: -25px;
+    margin-top: -83px;
+    position: absolute;
+    top: 50%;
+    width: 68px;
+    z-index: 2000;
+}
+#container .nextButton {
+    background: url("images/buttons.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 72px;
+    margin-top: -36px;
+    position: absolute;
+    right: 0;
+    top: 38%;
+    width: 68px;
+    z-index: 2000;
+}
+
+#container {
+    height: 392px;
+    position: relative;
+    width: 331px!important;
+}
+
+#container ul {
+    height: 397px;
+    list-style: none outside none;
+    overflow: hidden;
+    position: relative;
+     width: 266px;
+}
+.deal_center {
+    margin-top: 20px;
+}
+
+
+
+.deal_dashboard1_left {
+    color: red;
+    float: left;
+    text-align: center;
+    width: 34%;
+}
+
+.deal_dashboard1_left img{
+width: 67px;
+margin-left: -36px;
+
+}
+.deal_dashboard1_left figcaption{
+
+margin-left: -36px;
+
+}
+
+
+.deal_dashboard1_right {
+    color: green;
+    float: none;
+    margin-bottom: 35px;
+    margin-left: -37px;
+    text-align: center;
+    width: 0;
+}
+.deal_dashboard1_right img{
+width: 70px;
+}
+
+.deal_dashboard1_middle {
+    color: purple;
+    float: left;
+    margin-bottom: 12px;
+    margin-left: -37px;
+    text-align: center;
+    width: 39%;
+}
+.deal_dashboard1_middle img {
+width:67px;
+}
+
+.deal_dashboard1_middle_right {
+    color: orange;
+    float: left;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 12%
+}
+.deal_dashboard1_middle_right img {
+width:55px;
+}
+
+
+
+.deal_dashboard1_bottom_right {
+    float: right;
+    margin-left: -94px;
+    margin-top: -112px;
+    text-align: center;
+    width: 175%;
+}
+
+.deal_dashboard1_bottom_right img {
+width:67px;
+
+}
+.deal_dashboard1_bottom img {
+width:67px;
+}
+.deal_dashboard1_left figure {margin-right:10px;}
+
+
+
+}
+
+@media only screen and (max-width: 480px)
+{
+ .swiper-slide div figure img{ width:40%;}   
+    
+}
+
+@media only screen and (max-width: 320px)
+{
+    .swiper-container {
+    height: 361px;
+    width: 100%;
+}
+
+.swiper-slide {height: 300px;}
+ 	
+	
+ .swiper-slide div figure img{ width:36%;}
+ 	
+	.device {
+    font-size:13px;	
+    margin-top: 90px !important;
+   height: 355px;
+    margin: 5px auto;
+    position: relative;
+    width: 100%;
+}   
+    
+}

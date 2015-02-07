@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <script src="js/SaleswahCommon/jquery-2.1.1.min.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/android_toast.min.css" />
+    <script src="js/SaleswahCommon/android_toast.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        document.addEventListener("deviceready", onDeviceReady, false);
+        function onDeviceReady() {
+            checkConnection();
+        }
+
+        function checkConnection() {
+            var LoadLabelsByLanguage = JSON.parse(localStorage.getItem('LoadLabelsByLanguage'));
+            var networkState = navigator.connection.type;
+
+            if (networkState == Connection.UNKNOWN || networkState == Connection.NONE) {
+                ShowMessage(LoadLabelsByLanguage.PleaseCheckyourInternetConnection);
+            }
+        }
+
+    </script>
+    <script>
+
+        function loaded() {
+          // RemoveObjects();
+
+            LoadLanguage('English');
+            var LoadLabelsByLanguage = JSON.parse(localStorage.getItem('LoadLabelsByLanguage'));
+//            var status = navigator.onLine ? 'online' : 'offline';
+
+//            if (status == 'offline') {
+//                ShowMessage(LoadLabelsByLanguage.PleaseCheckyourInternetConnection);
+//            }
+
+
+            window.setTimeout(CloseMe, 4000);
+        }
+
+        function CloseMe() {
+
+           
+            var SaveCredentialsForAutologin = JSON.parse(localStorage.getItem('SaveCredentialsForAutologin'));
+            if (SaveCredentialsForAutologin != null) {
+
+
+
+                var MethodName = "/ValidateUser";
+
+                var Data = { Email: SaveCredentialsForAutologin.EmailAddress, password: SaveCredentialsForAutologin.Password, ShortAccountName: SaveCredentialsForAutologin.ShortAccountName };
+
+                
+
+                GetResultFromService(MethodName, Data);
+
+            }
+            else {
+                window.location.replace("register.html");
+            }
+            //window.close();
+        }
+        function RemoveObjects() {
+            localStorage.removeItem('LoadLabelsByLanguage');
+            localStorage.removeItem('IsNewRegisteredUser');
+            localStorage.removeItem('SaveTempCredentialsForAutologin');
+            localStorage.removeItem('SaveCredentialsForAutologin');
+        }
+    </script>
+</head>
+<body onload="loaded()" style="background-color: #387C44;">
+    <img src="images/150-x-150-PNG.png" style="position: fixed; top: 50%; left: 50%;
+        margin-left: -75px; margin-top: -75px;" />
+</body>
+<script src="js/SaleswahBusiness/ClientUser.js" type="text/javascript"></script>
+<script src="js/SaleswahCommon/LanguageSelector.js" type="text/javascript"></script>
+<script src="js/SaleswahCommon/FunctionCall.js" type="text/javascript"></script>
+<script src="js/SaleswahCommon/IdToFunctionMapper.js" type="text/javascript"></script>
+<script src="js/SaleswahBusiness/Utility.js" type="text/javascript"></script>
+
+</html>

@@ -1,0 +1,400 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body,h4,p,ul,li,span,label,input,progress,figcaption,figure,img,select,option{margin:0px; padding:0px;font-family:Arial, Helvetica, sans-serif;} 
+body{ margin:0 auto; font-family:Arial, Helvetica, sans-serif;  overflow-x: hidden; }
+a{text-decoration:none;}	
+
+
+.logowel{ float:left; width:99%; padding:10px 0px 0px 0px ; text-align:center;  font-size:25px;color:#808185;  }
+
+.welsc { width:90%; clear:both;  margin:24px 3% 0px 3% !important;}
+.welhead{font-size:23px; color:#048C9C; padding:4px 0px 10px 0px}
+.weltxt{padding:20px 0px  0px  0px  }
+.weltxt p{color:#757575;   font-size:23px; line-height:30px; text-align:center; padding:8px 0px  }
+.weltxt span { color:#048C9C; } 
+
+.placeimg{ background:url(../images_d/lap-dashboard.jpg) no-repeat ; margin:0px auto; width:772px; height:395px }
+.contimg{ background:url(../images_d/lap-contact.jpg) no-repeat ; margin:0px auto; width:772px; height:360px }
+.accountimg{ background:url(../images_d/lap-account.jpg) no-repeat ; margin:0px auto; width:772px; height:395px }
+.salestimg{ background:url(../images_d/lap-sales.jpg) no-repeat ; margin:0px auto; width:772px; height:395px }
+.activitiestimg{ background:url(../images_d/lab-activities.jpg) no-repeat ; margin:0px auto; width:772px; height:395px }
+.marketingimg{  background:url(../images_d/lap-marketing.jpg) no-repeat ; margin:0px auto; width:772px; height:395px }
+
+.maind{ width:100%; margin:0 auto; clear:both }
+.mainwel{ width:100%;  margin:0 auto; clear:both ; height: 559px;overflow-y: auto;}
+.main-nav{ width:100%; margin:0 auto; height:77px; }
+.mgtp{ margin-top:15px}
+
+.dsearch{ width:100%; float:left; clear:both; margin:24px 0px 3px 0px;  } 
+.dsearch input { width:82%; margin:9px 8% 0px 6%; padding-left:40px;    border-radius: 80px;  background:url(../images_d/search1.png) no-repeat ; position:relative; z-index:9; height: 35px; }
+.dsearch input[placeholder="search"]{   padding-left: 32px;  text-align: inherit; border: 1px solid gray; }
+ textarea{ z-index:2 !important; position: relative;}
+ 
+
+.ui-autocomplete li{ font-size:17px; font-weight:normal; color:#048C9C; line-height:30px }
+
+
+.dlist{ width:90%; clear:both; margin:0px 3%}
+.dlist ul{ list-style:none;  	}
+.dlist ul li{ border-bottom:1px solid #D3D1D1; margin:10px 0px 0px 0px; padding:10px 0px	}
+
+.dlist ul li h4{ font-weight:normal; font-size:23px; width:100%}	
+.dlist ul li h4 a{color:#048C9C; text-decoration:none}
+.dlist ul li p{ color:#757575;  margin:10px 0px 0px 0px; font-size:17px;  width:100% }
+.dlist ul li span{color:#757575;  font-size:17px; width:100%}
+.dealheader{float:left;	width:100%; height:50px;  background-image: -webkit-gradient(
+ linear,
+ left top,
+ left bottom,
+ color-stop(0,#A2D5DA),
+ color-stop(1, #F5FCFA)
+);
+background-image: -o-linear-gradient(bottom,#A2D5DA 0%, #F5FCFA 100%);
+background-image: -moz-linear-gradient(bottom,#A2D5DA 0%, #F5FCFA 100%);
+background-image: -webkit-linear-gradient(bottom,#A2D5DA 0%, #F5FCFA 100%);
+background-image: -ms-linear-gradient(bottom,#A2D5DA 0%, #F5FCFA 100%);
+background-image: linear-gradient(to bottom,#A2D5DA 0%, #F5FCFA 100%);} 
+.logo{ float:left; width:20%; padding:0px 0px 0px 25px ; }
+.hedlft1 { float:left; width:100%; font-size:23px; color:#808185; height:27px}
+.hedlft2{ float:left; width:100%; font-size:14px;color:#808185; 	}	 
+.hedmid{float:left; width:38%; font-size:14px; padding:6px 0px 0px  0px;  height:35px; text-align:center}  
+.hedrht{float:right; width:20%; font-size:14px; padding:6px 10px 0px  0px; height:43px; } 
+
+
+.dtform {float:left;color:#048C9C;font-size:13px; width:90%; clear:both; margin:0px 3%}	
+.dtform ul{list-style:none; margin:0px; padding:0px;}	
+.dtform ul li {line-height:38px;  float:left; width:100%;  margin:25px 0px ; }
+.dtform ul li p.lab{float:left; width:38%; line-height:20px;    }
+.dtform ul li label{ font-size:14px;   text-align:right; width:100% }
+
+.dtform ul li p.inp{float:left; width:55%; margin:0px 0px 0px 15px; }
+.dtform ul li input{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%; }
+
+.dtform ul li select{ font-size:22px; font-weight:normal; border:1px solid #D6D2CB; color:#757575; padding:4px 10px 7px 10px; 
+margin:0px 0px ; width:103%; }
+.dtform ul li select option{ margin-bottom:10px}
+.dtform ul li textarea{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;   border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%; }
+
+
+.footer{ width:100%; margin-top: 25px; background-color:#048C9C; height:18px ; padding:8px 0px 15px 0px; clear:both;  position:fixed; bottom:0px; z-index:5}
+.footerc{margin:0px auto; width:80%;}	
+.footer img{   padding:0px 5% 0px 5% }
+.footer_left {  float: left;   text-align: right;  width: 75%; }
+.footer_right {   text-align: right;  }
+
+.device { background:#fff; height: 34px; margin: 30px 5% 5px 5%;position: relative; width: 90%; clear:both; }
+
+.swiper-container {  height: 667px;  width: 100%; margin:0px 0% 0px 0%; z-index:2;}   
+.device .arrow-left {  background: url(img/arrows.png) no-repeat left top; position: absolute;
+  left: 10px; top: 50%; margin-top: -15px; width: 17px; height: 30px; }  
+.device .arrow-right {  background: url(img/arrows.png) no-repeat left bottom;  position: absolute; right: 10px;
+  top: 50%;  margin-top: -15px;   width: 17px;   height: 30px; }
+
+.invest_nav1{ float:left;  margin:8px 2% 0px  5% ; padding:0px 0px	}
+.invest_nav2{ float:left;  margin:8px 5% 0px  2% ;   padding:0px 0px }
+.invest_nav3{ float:left;  margin:8px 5% 0px  -2% ; padding:0px 0px  }
+
+.invest_nav1_1{ float:left; margin:8px 5%  0px 5%   ; padding:0px 0px	}
+.invest_nav2_1{ float:left; margin:11px 5%  0px 5% ; padding:0px 0px }
+.invest_nav3_1{ float:left; margin:9px 5%  0px 5% ; padding:0px 0px  }
+
+.invest_nav1_3{ float:left;  margin:9px 5px 0px 5px;  padding:0px 0px  }
+.invest_nav2_3{ float:left;  margin:9px 5px 0px 7px !important;  padding:0px 0px  }
+
+.invest_nav4_4{ float:left;  margin:8px 5% 0px  5% ; padding:0px 0px	}
+.invest_nav4_5{ float:left;  margin:4px 5% 0px  5% ;   padding:0px 0px }
+.invest_nav4_6{ float:left;  margin:4px 5% 0px  5% ; padding:0px 0px  }
+.invest_nav4_7{ float:left;  margin:4px 5% 0px  5% ; padding:0px 0px  }
+
+.invest_nav1 figure{ text-align:center;    background-color:#E6E8C2; }	
+.invest_nav2 figure{text-align:center; }
+.invest_nav3 figure	{text-align:center; }
+.invest_nav1_1 figure{ text-align:center; }
+.invest_nav2_1 figure{text-align:center; }	
+.invest_nav3_1 figure{ text-align:center; }
+.invest_nav1_3 figure{text-align:center; }	
+.invest_nav2_3 figure{ text-align:center; }
+
+.invest_nav4_4 figure{text-align:center; }	
+.invest_nav4_5 figure{ text-align:center; }
+.invest_nav4_6 figure{text-align:center; }	
+.invest_nav4_7 figure{ text-align:center; }
+
+.invest_nav1 figure figcaption{ text-align:center; font-size:14px;  color: black;}
+.invest_nav2 figure figcaption{text-align:center; font-size:14px;  color: black;}
+.invest_nav3 figure figcaption{text-align:center; font-size:14px;  color: black;}
+
+.invest_nav1_1 figure figcaption{ text-align:center; font-size:14px;  color: black;}
+.invest_nav2_1 figure figcaption{text-align:center; font-size:14px;  color: black;}
+
+.invest_nav3_1 figure figcaption{text-align:center; font-size:14px;   color: black;}
+.invest_nav1_3 figure figcaption{text-align:center; font-size:14px;   color: black;}
+.invest_nav2_3 figure figcaption{text-align:center; font-size:14px;  color: black;}
+
+.invest_nav4_4 figure figcaption{text-align:center; font-size:14px;   color: black;}
+.invest_nav4_5 figure figcaption{text-align:center; font-size:14px;   color: black;}
+.invest_nav4_6 figure figcaption{text-align:center; font-size:14px;  color: black;}
+.invest_nav4_7 figure figcaption{text-align:center; font-size:14px;  color: black;}
+
+.detail_nav1{ float:left;  margin:8px 9% 0px  9% ; padding:0px 0px	}	
+.detail_nav2{ float:left;  margin:8px 9% 0px  9% ;   padding:0px 0px }	
+.detail_nav3{ float:left;  margin:8px 9% 0px  9% ;   padding:0px 0px }	
+.detail_nav1_1{ float:left;  margin:8px 9% 0px  9% ;   padding:0px 0px }	
+	
+.detail_nav1 figure{ text-align:center;background-color:#E6E8C2;}
+.detail_nav2 figure{ text-align:center; }
+.detail_nav3 figure{ text-align:center; }	
+.detail_nav1_1 figure{ text-align:center; }
+
+.detail_nav1 figure figcaption{ text-align:center; font-size:14px;  color: black;}
+.detail_nav2 figure figcaption{ text-align:center; font-size:14px;  color: black;  }
+.detail_nav3 figure figcaption{ text-align:center; font-size:14px;  color: black;}
+.detail_nav1_1 figcaption{ text-align:center; font-size:14px;  color: black;}
+
+
+
+#page_navigation a{ padding:3px; margin:2px; color:black; text-decoration:none }
+
+.active_page{ background:#048C9C; color:white !important; }
+.content-slide {  padding: 20px;  color: #fff; }
+.title {  font-size: 25px;  margin-bottom: 10px; }
+
+.pagination {  position: absolute;  left: 0;  text-align: center;   bottom:5px;  width: 100%;display:none; }
+
+.swiper-pagination-switch {  display: inline-block; width: 10px;   height: 10px;  border-radius: 10px;
+  background: #999;  box-shadow: 0px 1px 2px #555 inset;   margin: 0 3px;   cursor: pointer; }
+
+.swiper-active-switch {   background: #fff;}
+.dbadmin {float:left;color:#048C9C;font-size:13px; width:90%; clear:both; margin:0px 3% }	
+.dbadmin ul{list-style:none; margin:0px; padding:0px; }	
+.dbadmin ul li {  float:left;width:100%;  margin:15px 0px 15px 0px ; font-family:Arial, Helvetica, sans-serif}
+.dbadmin ul li div.labeldb{ font-size:14px;  width:17%;float:left; text-align:right;  margin-left:6%  }
+.dbadmin ul li div.spandb{ width:10%;float:left; font-size:22px; font-weight:normal;  color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; font-family:Arial, Helvetica, sans-serif; margin:0px 3% 0px 8%; }
+.dbadmin ul li div.progressdb{width:40%;float:left; margin-top:0px;  }
+
+ progress {  background-color:#f3f3f3;  border:0; height:18px; width:100%;  }    
+ progress::-webkit-progress-bar {  background-color:#048C9C; }   
+ progress::-moz-progress-bar {    background-color:#048C9C; } 
+
+@media (max-width: 768px) {
+
+.logowel{ float:left; width:99%; padding:18px 0px 0px 0px ; text-align:center;  font-size:14px;color:#808185;  }
+.welsc { width:90%; clear:both;  margin:0px 3% 0px 3% !important }
+.welhead{font-size:23px; color:#048C9C; padding:4px 0px 10px 0px}
+.weltxt p{color:#757575;   font-size:15px; line-height:25px; text-align:center; padding:5px 0px  }
+.weltxt span { color:#048C9C; } 
+.mainwel{ width:100%;  margin:0 auto; clear:both ; height: 559px;overflow-y: auto;}
+
+
+.placeimg{ background:url(../images_d/saleswah-crm-mob.jpg) no-repeat ; margin:0px auto; width:240px; height:281px }
+.contimg{ background:url(../images_d/mob-contact.jpg) no-repeat ; margin:0px auto; width:217px; height:303px }
+.accountimg{ background:url(../images_d/mob-account.jpg) no-repeat ; margin:0px auto; width:217px; height:321px }
+.salestimg{ background:url(../images_d/mob-sales.jpg) no-repeat ; margin:0px auto; width:217px; height:279px }
+.activitiestimg{ background:url(../images_d/mob-activities.jpg) no-repeat ; margin:0px auto; width:217px; height:245px }
+.marketingimg{ background:url(../images_d/mob-activities.jpg) no-repeat ; margin:0px auto; width:217px; height:245px }
+
+
+.dsearch{ width:100%; float:left; clear:both; margin:24px 0px 3px 0px;  }
+.dsearch input { width:81% !important; margin:9px 8% 0px 6%; padding-left:40px;    border-radius: 80px;  background:url(../images_d/search1.png) no-repeat ; position:relative; z-index:9; height: 35px; }
+.dsearch input[placeholder="search"]{   padding-left: 32px;  text-align: inherit; border: 1px solid gray; }
+	
+
+.dealwrap{width:96%}	
+		
+.nav{float:left; height:54px;  width: 100%; margin:0px auto;   }
+.nav ul{list-style:none; margin:20px auto 15px auto; padding:0px;}
+.nav ul li{ float: left; display:inline; margin:0px 15% 0px 0px; color:#757575; text-align:right  }
+.nav ul li p{}
+
+.dtform {float:left;color:#048C9C;font-size:13px; }	
+.dtform ul{list-style:none; margin:0px; padding:0px;}	
+.dtform ul li {line-height:38px;  float:left;width:100%;  margin:25px 0px ; }
+.dtform ul li p.lab{float:left; width:26%; line-height:20px;    }
+.dtform ul li label{ font-size:14px;  text-align:right  }
+.dtform ul li p.inp{float:left; width:69%; margin:0px 0px 0px 15px; }
+.dtform ul li input{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%; }
+.dtform ul li select{ font-size:22px; font-weight:normal; border:1px solid #D6D2CB; color:#757575; padding:4px 10px 7px 10px; 
+margin:0px 0px ; width:103%; }
+.dtform ul li select option{ margin-bottom:10px}
+.dtform ul li textarea{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%;}
+
+.dbadmin {float:left;padding-top:20px;color:#048C9C;font-size:13px; width:90%; clear:both; margin:0px 3% }	
+.dbadmin ul{list-style:none; margin:0px; padding:0px; }	
+.dbadmin ul li {  float:left;width:100%;  margin:15px 0px 15px 0px ; font-family:Arial, Helvetica, sans-serif}
+.dbadmin ul li div.labeldb{ font-size:14px;  width:17%;float:left; text-align:right;  margin-left:6%  }
+.dbadmin ul li div.spandb{ width:10%;float:left; font-size:22px; font-weight:normal;  color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; font-family:Arial, Helvetica, sans-serif; margin:0px 3% 0px 8%; }
+.dbadmin ul li div.progressdb{width:40%;float:left; margin-top:0px;  }
+ progress {  background-color:#f3f3f3;  border:0; height:18px; width:100%;  }    
+ progress::-webkit-progress-bar {  background-color:#048C9C; }   
+ progress::-moz-progress-bar {    background-color:#048C9C; } 
+
+.footer{ width:100%; margin-top: 5px; background-color:#048C9C; height:18px ; padding:8px 0px 15px 0px; clear:both;  position:fixed; bottom:0px; z-index:5 }
+.footerc{margin:0px auto; width:80%;}	
+.footer img{   padding:0px 8% 0px 8% }
+.footer_left {  float: left;   text-align: right;  width: 75%; }
+.footer_right {   text-align: right;  }
+
+.device { background:#fff; height: 34px; margin: 30px 5% 5px 5%;position: relative; width: 90%; clear:both }
+
+.swiper-container {   height: 550px; width: 100%; margin:0px 0% 0px 0%; z-index:2 }   
+.device .arrow-left {  background: url(img/arrows.png) no-repeat left top; position: absolute;
+  left: 10px; top: 50%; margin-top: -15px; width: 17px; height: 30px; }  
+.device .arrow-right {  background: url(img/arrows.png) no-repeat left bottom;  position: absolute; right: 10px;
+  top: 50%;  margin-top: -15px;   width: 17px;   height: 30px; }
+	
+}
+
+
+
+@media only screen and (max-width: 480px)  and (orientation : portrait){  /* Shubham  Portrait  */
+
+.logowel{ float:left; width:99%; padding:18px 0px 0px 0px ; text-align:center;  font-size:14px;color:#808185;  }
+
+.placeimg{ background:url(../images_d/saleswah-crm-mob.jpg) no-repeat ; margin:0px auto; width:240px; height:281px }
+.contimg{ background:url(../images_d/mob-contact.jpg) no-repeat ; margin:0px auto; width:217px; height:303px }
+.accountimg{ background:url(../images_d/mob-account.jpg) no-repeat ; margin:0px auto; width:217px; height:321px }
+.salestimg{ background:url(../images_d/mob-sales.jpg) no-repeat ; margin:0px auto; width:217px; height:279px }
+.activitiestimg{ background:url(../images_d/mob-activities.jpg) no-repeat ; margin:0px auto; width:217px; height:245px }
+.marketingimg{ background:url(../images_d/mob-activities.jpg) no-repeat ; margin:0px auto; width:217px; height:245px }
+
+.welsc { width:90%; clear:both;  margin:0px 3% 0px 3% !important }
+.welhead{font-size:23px; color:#048C9C; padding:4px 0px 10px 0px}
+.weltxt p{color:#757575;   font-size:15px; line-height:25px; text-align:center; padding:5px 0px  }
+.weltxt span { color:#048C9C; } 
+
+
+
+.main{ width:100%; margin:0 auto; }
+.detail_main{ width:100%; margin:0 auto; }
+
+
+
+.swiper-container {   height: 604px !important; width: 100%; margin:0px 0% 0px 0%;  z-index:2;}  
+
+
+.dlist ul{ list-style:none;  padding:2px  10px 20px  15px; 	}
+.dlist ul li{ padding:10px 0px; border-bottom:1px solid #D3D1D1; 	}
+.dlist ul li h4{ color:#757575; font-size:23px; line-height:25px; font-weight:normal !important; margin-bottom:10px  }	
+.dlist ul li p{ color:#757575; font-size:17px; line-height:18px; margin-bottom:10px}
+.dlist ul li span{color:#757575; font-size:17px; line-height:18px; }  
+
+
+.dtform {float:left;color:#048C9C;font-size:13px; }	
+.dtform ul{list-style:none; margin:0px; padding:0px;}	
+.dtform ul li {line-height:38px;  float:left;width:100%;  margin:25px 0px ; }
+.dtform ul li p.lab{float:left; width:33%; line-height:20px;    }
+.dtform ul li label{ font-size:14px;   text-align:right  }
+.dtform ul li p.inp{float:left; width:60%; margin:0px 0px 0px 10px; }
+.dtform ul li input{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%; }
+.dtform ul li select{font-size:22px;font-weight:normal;border:1px solid #D6D2CB; color:#757575; padding:8px 10px 10px 10px; margin:0px 0px ; width:113%; border-radius:0px; background:#fff; }
+.dtform ul li select option{ margin-bottom:10px}
+.dtform ul li textarea{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%;}
+
+.detail_nav1{ float:left;  margin:8px 3% 0px  3% ; padding:0px 0px	}	
+.detail_nav2{ float:left;  margin:8px 3% 0px  3% ;   padding:0px 0px }	
+.detail_nav3{ float:left;  margin:8px 3% 0px  2% ;   padding:0px 0px }	
+.detail_nav1_1{ float:left;  margin:8px 3% 0px  3% ;   padding:0px 0px }	
+
+
+.nav{float:left; height:54px;  width: 100%; margin:0px auto;   }
+.nav ul{list-style:none; margin:20px 0px 15px 20px; padding:0px;}
+.nav ul li{ float: left; display:inline; margin:0px 5% 0px 0px; color:#757575; text-align:right  }
+.nav ul li p{}
+
+
+.footer{ width:100%; margin-top: 25px; background-color:#048C9C; height:18px ; padding:8px 0px 15px 0px; clear:both;  position:fixed; bottom:0px; z-index:5}
+.footerc{margin:0px auto; width:80%;}	
+.footer img{   padding:0px 5% 0px 5% !important }
+.footer_left {  float: left;   text-align: right;  width: 75%; }
+.footer_right {   text-align: right;  }
+
+.device { background:#fff; height: 34px; margin: 30px 5% 5px 5%;position: relative; width: 90%; clear:both }
+ 
+.device .arrow-left {  background: url(img/arrows.png) no-repeat left top; position: absolute;
+  left: 10px; top: 50%; margin-top: -15px; width: 17px; height: 30px; }  
+.device .arrow-right {  background: url(img/arrows.png) no-repeat left bottom;  position: absolute; right: 10px;
+  top: 50%;  margin-top: -15px;   width: 17px;   height: 30px; }
+  
+ .detail_nav1{ float:left;  margin:8px 5% 0px  5% ; padding:0px 0px	}	
+.detail_nav2{ float:left;  margin:8px 5% 0px  5% ;   padding:0px 0px }	
+.detail_nav3{ float:left;  margin:8px 5% 0px  2% ;   padding:0px 0px }	
+.detail_nav1_1{ float:left;  margin:8px 5% 0px  5% ;   padding:0px 0px }
+	
+}
+
+@media (max-width: 320px) {
+
+.logowel{ float:left; width:99%; padding:18px 0px 0px 0px ; text-align:center;  font-size:14px;color:#808185;  }
+.mainwel{ width:100%;  margin:0 auto; clear:both ; height: 448px;overflow-y: auto;}
+.placeimg{ background:url(../images_d/saleswah-crm-mob.jpg) no-repeat ; margin:0px auto; width:240px; height:281px }
+.contimg{ background:url(../images_d/mob-contact.jpg) no-repeat ; margin:0px auto; width:217px; height:303px }
+.accountimg{ background:url(../images_d/mob-account.jpg) no-repeat ; margin:0px auto; width:217px; height:321px }
+.salestimg{ background:url(../images_d/mob-sales.jpg) no-repeat ; margin:0px auto; width:217px; height:279px }
+.activitiestimg{ background:url(../images_d/mob-activities.jpg) no-repeat ; margin:0px auto; width:217px; height:245px }
+.marketingimg{ background:url(../images_d/mob-activities.jpg) no-repeat ; margin:0px auto; width:217px; height:245px }
+
+
+
+.swiper-container {   height: 497px !important; width: 100%; margin:0px 0% 0px 0%; z-index:2; } 	
+
+.welsc { width:90%; clear:both;  margin:0px 3% 0px 3% !important }
+.welhead{font-size:23px; color:#048C9C; padding:4px 0px 10px 0px}
+.weltxt p{color:#757575;   font-size:14px; line-height:22px; text-align:center; padding:5px 0px  }
+.weltxt span { color:#048C9C; } 
+
+
+.weltxt img{ width:100%}
+
+.dsearch input { width:76% !important; margin:9px 8% 0px 6%; padding-left:40px;    border-radius: 80px;  background:url(../images_d/search1.png) no-repeat ; position:relative; z-index:9; height: 35px; }
+.dsearch input[placeholder="search"]{   padding-left: 32px;  text-align: inherit; border: 1px solid gray; }
+	
+.invest_nav1{ float:left;  margin:8px 2% 0px  3% !important ; padding:0px 0px	}
+.invest_nav2{ float:left;  margin:8px 5% 0px  2% ;   padding:0px 0px }
+.invest_nav3{ float:left;  margin:8px 5% 0px  -2% ; padding:0px 0px  }
+
+
+.detail_nav1{ float:left;  margin:8px 4% 0px  4% ; padding:0px 0px	}	
+.detail_nav2{ float:left;  margin:8px 5% 0px  4% ;   padding:0px 0px }	
+.detail_nav3{ float:left;  margin:8px 5% 0px  4% ;   padding:0px 0px }	
+.detail_nav1_1{ float:left;  margin:8px 5% 0px  4% ;   padding:0px 0px }
+
+.detail_nav1 figure figcaption{ text-align:center; font-size:12px;  color: black;}
+.detail_nav2 figure figcaption{ text-align:center; font-size:12px;  color: black;  }
+.detail_nav3 figure figcaption{ text-align:center; font-size:12px;  color: black;}
+.detail_nav1_1 figcaption{ text-align:center; font-size:12px;  color: black;}
+	
+	
+
+.invest_nav1_1{ float:left; margin:8px 2%  0px 2%   ; padding:0px 0px	}
+.invest_nav2_1{ float:left; margin:11px 2%  0px 2% ; padding:0px 0px }
+.invest_nav3_1{ float:left; margin:9px 2%  0px 2% ; padding:0px 0px  }
+
+.invest_nav1_3{ float:left;  margin:9px 5px 0px 5px;  padding:0px 0px  }
+.invest_nav2_3{ float:left;  margin:9px 5px 0px 7px !important;  padding:0px 0px  }
+
+.invest_nav4_4{ float:left;  margin:8px 2% 0px  2% ; padding:0px 0px	}
+.invest_nav4_5{ float:left;  margin:4px 2% 0px  2% ;   padding:0px 0px }
+.invest_nav4_6{ float:left;  margin:4px 2% 0px  2% ; padding:0px 0px  }
+.invest_nav4_7{ float:left;  margin:4px 2% 0px  2% ; padding:0px 0px  }
+
+.invest_nav1 figure figcaption{ text-align:center; font-size:12px;  color: black;}
+.invest_nav2 figure figcaption{text-align:center; font-size:12px;  color: black;}
+.invest_nav3 figure figcaption{text-align:center; font-size:12px;  color: black;}
+
+.invest_nav1_1 figure figcaption{ text-align:center; font-size:12px;  color: black;}
+.invest_nav2_1 figure figcaption{text-align:center; font-size:12px;  color: black;}
+
+.invest_nav3_1 figure figcaption{text-align:center; font-size:12px;   color: black;}
+.invest_nav1_3 figure figcaption{text-align:center; font-size:12px;   color: black;}
+.invest_nav2_3 figure figcaption{text-align:center; font-size:12px;  color: black;}
+
+.invest_nav4_4 figure figcaption{text-align:center; font-size:12px;   color: black;}
+.invest_nav4_5 figure figcaption{text-align:center; font-size:12px;   color: black;}
+.invest_nav4_6 figure figcaption{text-align:center; font-size:12px;  color: black;}
+.invest_nav4_7 figure figcaption{text-align:center; font-size:12px;  color: black;}
+
+
+
+	
+	}
+

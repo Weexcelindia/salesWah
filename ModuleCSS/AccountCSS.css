@@ -1,0 +1,28 @@
+﻿
+    .dealheader{float:left; width:100%; height:50px;  background-image: -webkit-gradient(
+         linear,
+         left top,
+         left bottom,
+         color-stop(0, #d7d8a7),
+         color-stop(1, #f5fcfa)
+        );
+        background-image: -o-linear-gradient(bottom, #d7d8a7 0%, #f5fcfa 100%);
+        background-image: -moz-linear-gradient(bottom, #d7d8a7 0%, #f5fcfa 100%);
+        background-image: -webkit-linear-gradient(bottom, #d7d8a7 0%, #f5fcfa 100%);
+        background-image: -ms-linear-gradient(bottom, #d7d8a7 0%, #f5fcfa 100%);
+        background-image: linear-gradient(to bottom, #d7d8a7 0%, #f5fcfa 100%);} 
+        .dtform {color:#6D145E;}
+        .footer { background-color:#aba000} 
+.dlist ul li a h4 {color:#FF2D6C; text-decoration:none;}
+.dtform {float:left;color:#FF2D6C;font-size:13px; width:90%; clear:both; margin:0px 3%}	
+.footer{ width:100%; margin-top: 10px; background-color:#FF2D6C; height:17px ; padding:8px 0px 15px 0px; clear:both;  bottom:0px; z-index:5; text-align:center;}
+.active_page{ background:#FF2D6C; color:white !important; }
+.dbadmin {float:left;color:#FF2D6C;font-size:13px; width:90%; clear:both; margin:0px 3% }	
+ progress::-webkit-progress-bar {  background-color:#FF2D6C; }   
+ progress::-moz-progress-bar {    background-color:#FF2D6C; } 
+ .ui-autocomplete li{ font-size:17px; font-weight:normal; color:#FF2D6C; line-height:30px ;}
+  @media (max-width: 320px) 
+        {
+          .swiper-container {   height: 290px !important; width: 96%; z-index:2 }   
+          .container_height{height: 56px !important;}
+        }

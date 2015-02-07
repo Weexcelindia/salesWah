@@ -1,0 +1,28 @@
+﻿
+    .dealheader{float:left;	width:100%; height:50px;  background-image: -webkit-gradient(
+ linear,
+ left top,
+ left bottom,
+ color-stop(0,#FFDBA0),
+ color-stop(1, #FBEFDC)
+);
+background-image: -o-linear-gradient(bottom,#FFDBA0 0%, #FBEFDC 100%);
+background-image: -moz-linear-gradient(bottom,#FFDBA0 0%, #FBEFDC 100%);
+background-image: -webkit-linear-gradient(bottom,#FFDBA0 0%, #FBEFDC 100%);
+background-image: -ms-linear-gradient(bottom,#FFDBA0 0%, #FBEFDC 100%);
+background-image: linear-gradient(to bottom,#FFDBA0 0%, #FBEFDC 100%);} 
+        .dtform {color:#DD9216;}
+        .footer { background-color:#DD9216} 
+.dlist ul li a h4{color:#DD9216; text-decoration:none;}
+.dtform {float:left;color:#DD9216;font-size:13px; width:90%; clear:both; margin:0px 3%}	
+.footer{ width:100%; margin-top: 25px; background-color:#DD9216; height:18px ; padding:8px 0px 15px 0px; clear:both;  bottom:0px; z-index:5; text-align:center;}
+.active_page{ background:#DD9216; color:white !important; }
+.dbadmin {float:left;color:#DD9216;font-size:13px; width:90%; clear:both; margin:0px 3% }	
+ progress::-webkit-progress-bar {  background-color:#DD9216; }   
+ progress::-moz-progress-bar {    background-color:#DD9216; } 
+.ui-autocomplete li{ font-size:17px; font-weight:normal; color:#DD9216; line-height:30px ;}
+@media (max-width: 320px) {
+
+.container_height{height: 56px !important;}
+
+}
