@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 body { font-family:Arial, Helvetica, sans-serif !important;
 	margin:0 auto;
@@ -504,7 +504,7 @@ display:none;
     margin-top: -57px;
     position: absolute;
     right: 10px;
-    top: 45%;
+    top: 50%;
     width: 17px;
 }
 
@@ -630,7 +630,7 @@ width:67px;
 
 @media only screen and (max-width: 480px)
 {
- .swiper-slide div figure img{ width:40%;}   
+ .swiper-slide div figure img{ width:30%;}   
     
 }
 
@@ -644,11 +644,11 @@ width:67px;
 .swiper-slide {height: 300px;}
  	
 	
- .swiper-slide div figure img{ width:36%;}
+ .swiper-slide div figure img{ width:30%;}
  	
 	.device {
     font-size:13px;	
-    margin-top: 90px !important;
+    margin-top: 80px !important;
    height: 355px;
     margin: 5px auto;
     position: relative;

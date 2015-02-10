@@ -1,0 +1,48 @@
+﻿@media only screen and (max-width: 1024px){
+
+}
+
+@media only screen and (max-width: 800px){
+
+}
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 640px){
+
+}
+
+@media only screen and (max-width: 600px){
+
+}
+
+@media only screen and (max-width: 540px){
+
+}
+
+@media only screen and (max-width: 384px){
+
+}
+
+@media only screen and (max-width: 360px){
+.swiper-container {
+    height: 361px;
+    width: 100%;
+}
+
+.swiper-slide {height: 300px;}
+ 	
+	
+ .swiper-slide div figure img{ width:30%;}
+ 	
+	.device {
+    font-size:13px;	
+    margin-top: 80px !important;
+   height: 355px;
+    margin: 5px auto;
+    position: relative;
+    width: 100%;
+}   
+}

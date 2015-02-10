@@ -161,12 +161,12 @@ margin:0px 0px ; width:103%; }
 .detail_nav1_2{ float:left;  margin:8px 3% 0px  3% ;   padding:0px 0px }		
 .detail_nav1_3{ float:left;  margin:8px 3% 0px  3% ;   padding:0px 0px }			
 	
-.detail_nav1 figure{ text-align:center;}
-.detail_nav2 figure{ text-align:center; }
-.detail_nav3 figure{ text-align:center; }	
-.detail_nav1_1 figure{ text-align:center; }
-.detail_nav1_2 figure{ text-align:center; }
-.detail_nav1_3 figure{ text-align:center; }
+.detail_nav1 figure{ text-align:center; padding:5px;}
+.detail_nav2 figure{ text-align:center; padding:5px;}
+.detail_nav3 figure{ text-align:center; padding:5px;}	
+.detail_nav1_1 figure{ text-align:center; padding:5px;}
+.detail_nav1_2 figure{ text-align:center; padding:5px;}
+.detail_nav1_3 figure{ text-align:center; padding:5px;}
 
 .detail_nav1 figure figcaption{ text-align:center; font-size:14px;  color: black;}
 .detail_nav2 figure figcaption{ text-align:center; font-size:14px;  color: black;  }
@@ -280,14 +280,14 @@ welsc { width:90%; clear:both;  margin:24px 3% 0px 3% }
 
 .dtform {float:left;font-size:13px; }	
 .dtform ul{list-style:none; margin:0px; padding:0px;}	
-.dtform ul li {line-height:38px;  float:left;width:100%;  margin:25px 0px ; }
+.dtform ul li {line-height:38px;  float:left;width:100%;  margin:25px 0px  0; }
 .dtform ul li p.lab{float:left; width:23%; line-height:20px;    }
 .dtform ul li label{ font-size:14px;   text-align:right  }
-.dtform ul li p.inp{float:left; width:70%; margin:0px 0px 0px 10px; }
-.dtform ul li input{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%; }
-.dtform ul li select{font-size:22px;font-weight:normal;border:1px solid #D6D2CB; color:#757575; padding:8px 10px 10px 10px; margin:0px 0px ; width:113%; border-radius:0px; background:#fff; }
+.dtform ul li p.inp{float:left; width:73%; margin:0px 0px 0px 10px; }
+.dtform ul li input{ font-size:16px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px solid #D6D2CB; border-right:1px solid #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:90%; }
+.dtform ul li select{font-size:16px;font-weight:normal;border:1px solid #D6D2CB; color:#757575; padding:8px 10px 10px 10px; margin:0px 0px ; width:100%; border-radius:0px; background:#fff; }
 .dtform ul li select option{ margin-bottom:10px}
-.dtform ul li textarea{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%;}
+.dtform ul li textarea{ font-size:16px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px solid #D6D2CB; border-right:1px solid #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:89%;}
 
 .detail_nav1{ float:left;  margin:8px 3% 0px  3% ; padding:0px 0px	}	
 .detail_nav2{ float:left;  margin:8px 3% 0px  3% ;   padding:0px 0px }	
