@@ -53,6 +53,12 @@
     .detail_nav3 figure figcaption{
         font-size:18px !important;
     }
+    .detail_nav1_1 figure figcaption{
+        font-size:18px !important;
+    }
+    .detail_nav1_2 figure figcaption{
+        font-size:18px !important;
+    }
     .text_search_wrapper{
         width:97% !important;
     }
@@ -115,6 +121,12 @@
         font-size:18px !important;
     }
 .detail_nav3 figure figcaption{
+        font-size:18px !important;
+    }
+.detail_nav1_1 figure figcaption{
+        font-size:18px !important;
+    }
+    .detail_nav1_2 figure figcaption{
         font-size:18px !important;
     }
 .hedmid{
@@ -184,6 +196,12 @@
         .detail_nav3 figure figcaption{
         font-size:16px !important;
     }
+        .detail_nav1_1 figure figcaption{
+        font-size:16px !important;
+    }
+    .detail_nav1_2 figure figcaption{
+        font-size:16px !important;
+    }
         .text_search_wrapper{
         width:97% !important;
     }
@@ -246,6 +264,12 @@
         font-size:16px !important;
     }
         .detail_nav3 figure figcaption{
+        font-size:16px !important;
+    }
+        .detail_nav1_1 figure figcaption{
+        font-size:16px !important;
+    }
+    .detail_nav1_2 figure figcaption{
         font-size:16px !important;
     }
         .text_search_wrapper{
@@ -320,6 +344,12 @@
         .detail_nav3 figure figcaption{
         font-size:16px !important;
     }
+        .detail_nav1_1 figure figcaption{
+        font-size:16px !important;
+    }
+    .detail_nav1_2 figure figcaption{
+        font-size:16px !important;
+    }
         .hedmid{
     width:53% !important;
     }
@@ -381,6 +411,12 @@
     .detail_nav3 figure figcaption{
     font-size:14px !important;
     }
+    .detail_nav1_1 figure figcaption{
+        font-size:14px !important;
+    }
+    .detail_nav1_2 figure figcaption{
+        font-size:14px !important;
+    }
     .hedmid{
     width:52% !important;
     }
@@ -400,6 +436,79 @@
     #AddNewDealDetailstxtAccountName{
     font-size: 14px;
     width: 81% !important;
+   }
+}
+
+@media only screen and (max-width: 400px){
+    .dtform ul li input {
+        width: 90% !important;
+    }
+    .listform ul li input {
+        width: 90% !important;
+    }
+    .listform ul li label {
+    font-size: 14px !important;
+}
+
+ .detail_nav1 {
+    margin:8px 6% 0 !important;
+    }
+    .detail_nav2 {
+    margin:8px 5% 0 !important;
+    }
+    .detail_nav3 {
+    margin:8px 6% 0 !important;
+    }	
+    .dtform ul li label {
+    font-size: 14px !important;
+}
+        .detail_nav1 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav2 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav3 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav1_1 figure figcaption{
+        font-size:14px !important;
+    }
+    .detail_nav1_2 figure figcaption{
+        font-size:14px !important;
+    }
+	
+ /*.swiper-slide div figure img{ width:30%;}*/
+ 	.device{
+        width:400px !important;
+    }
+	.device {
+    font-size:13px;	
+    margin-top: 80px !important;
+   height: 355px;
+    margin: 5px auto;
+    position: relative;
+}  
+  
+            .hedmid{
+        width:50% !important;
+    }
+            .text_search_wrapper{
+        width:99% !important;
+    }
+            #AddNewTaskDetailstxtAccountName{
+        width:77% !important;
+    } 
+            #ProposalDetailstxtContactName {
+    font-size: 14px;
+    width: 75% !important;
+}
+            .dtform ul li p.inp a{
+       font-size:14px !important;
+   }
+            #AddNewDealDetailstxtAccountName{
+    font-size: 14px;
+    width: 77% !important;
    }
 }
 
@@ -435,6 +544,12 @@
         .detail_nav3 figure figcaption{
         font-size:14px !important;
     }
+        .detail_nav1_1 figure figcaption{
+        font-size:14px !important;
+    }
+    .detail_nav1_2 figure figcaption{
+        font-size:14px !important;
+    }
 	
  /*.swiper-slide div figure img{ width:30%;}*/
  	.device{
@@ -446,12 +561,7 @@
    height: 355px;
     margin: 5px auto;
     position: relative;
-}  
-    .swiper-container {   height: 320px !important; z-index:2 } 	
-            .swiper-parent
-            {
-                height: 320px !important;
-            } 
+} 
             .hedmid{
         width:50% !important;
     }
@@ -508,6 +618,12 @@
         .detail_nav3 figure figcaption{
         font-size:14px !important;
     }
+        .detail_nav1_1 figure figcaption{
+        font-size:14px !important;
+    }
+    .detail_nav1_2 figure figcaption{
+        font-size:14px !important;
+    }
 	
  /*.swiper-slide div figure img{ width:30%;}*/
  	.device{
@@ -520,11 +636,6 @@
     margin: 5px auto;
     position: relative;
 }  
-    .swiper-container {   height: 320px !important; z-index:2 } 	
-            .swiper-parent
-            {
-                height: 320px !important;
-            } 
         .hedmid{
         width:50% !important;
     }
@@ -586,6 +697,13 @@
         font-size:14px !important;
     }
     .detail_nav3 figure figcaption{
+        font-size:14px !important;
+    }
+
+    .detail_nav1_1 figure figcaption{
+        font-size:14px !important;
+    }
+    .detail_nav1_2 figure figcaption{
         font-size:14px !important;
     }
 	

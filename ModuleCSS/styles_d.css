@@ -307,7 +307,7 @@ welsc { width:90%; clear:both;  margin:24px 3% 0px 3% }
 .footer_left {  float: left;   text-align: right;  width: 75%; }
 .footer_right {   text-align: right;  }
 
-.device { background:#fff; height: 34px; margin: 30px 5% 5px 5%;position: relative; width: 90%; clear:both }
+.device { background:#fff; height: 34px; margin: 30px 0 5px;position: relative; width:100%; clear:both }
 
 .swiper-container { width: 96%; margin:0px 2% 0px 2%;  z-index:2}   /*height: 360px; */
 .device .arrow-left {  background: url(img/arrows.png) no-repeat left top; position: absolute;
