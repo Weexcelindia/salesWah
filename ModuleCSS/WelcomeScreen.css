@@ -15,8 +15,8 @@ background-image: linear-gradient(to bottom,#A2D5DA 0%, #F5FCFA 100%);}
         .dtform {color:#048C9C;}
         .footer { background-color:#048C9C} 
 .dlist ul li a h4 {color:#048C9C; text-decoration:none;}
-.dtform {float:left;color:#048C9C;font-size:13px; width:90%; clear:both; margin:0px 3%}	
-.footer{ width:100%; margin-top: 25px; background-color:#048C9C; height:18px ; padding:8px 0px 15px 0px; clear:both;  bottom:0px; z-index:5; text-align:center;}
+.dtform {float:left;color:#048C9C;font-size:13px; width:100%; clear:both; margin:0px;}	
+.footer{ width:100%; margin-top: 25px; background-color:#048C9C; height:18px ; padding:8px 0px 15px 0px; clear:both;  bottom:0px; z-index:5; text-align:center; position:fixed;}
 .active_page{ background:#048C9C; color:white !important; }
 .dbadmin {float:left;color:#048C9C;font-size:13px; width:90%; clear:both; margin:0px 3% }	
  progress::-webkit-progress-bar {  background-color:#048C9C; }   

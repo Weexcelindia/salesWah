@@ -211,7 +211,7 @@ background-image: linear-gradient(to bottom, #90e1c5 0%, #f5fcfa 100%);
    float: left;
     text-align: center;
     width: 50%;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 	
 }
 .deal_dashboard2_thee{
@@ -219,20 +219,21 @@ background-image: linear-gradient(to bottom, #90e1c5 0%, #f5fcfa 100%);
    float: left;
     text-align: center;
     width: 50%;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 	
 }
 .deal_dashboard2_thre{
     color:#4A2AA4;
     float: left;
     text-align: center;
+    margin-bottom: 35px;
     width: 50%;
 }
 .deal_dashboard2_for{
 	 color: #01255F;
 
     float: left;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     text-align: center;
     width: 50%;
    
@@ -432,12 +433,11 @@ background-image: linear-gradient(to bottom, #90e1c5 0%, #f5fcfa 100%);
   margin-top: -15px;
   width: 17px;
   height: 30px;
-  
 }
-.swiper-container {
+/*.swiper-container {
     height: 500px;
     width: 640px;
-}
+}*/
 .content-slide {
   padding: 20px;
   color: #fff;
@@ -472,7 +472,6 @@ display:none;
 
 @media only screen and (max-width: 480px){
 
-	
 	
 	
 	.device {

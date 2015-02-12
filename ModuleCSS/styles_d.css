@@ -43,8 +43,8 @@ background-image: linear-gradient(to bottom, #FAC6D6 0%, #F7E7EC 100%);}
 .logo{ float:left; width:20%; padding:0px 0px 0px 25px ; }
 .hedlft1 { float:left; width:100%; font-size:23px; color:#808185; height:27px}
 .hedlft2{ float:left; width:100%; font-size:14px;color:#808185; 	}	 
-.hedmid{float:left; width:38%; font-size:14px; padding:6px 0px 0px  0px;  height:35px; text-align:center}  
-.hedrht{float:right; width:20%; font-size:14px; padding:6px 10px 0px  0px; height:43px; } 
+.hedmid{float:left; width:54%; font-size:14px; padding:6px 0px 0px  0px;  height:35px; text-align:center}  
+.hedrht{float:right; width:20%; font-size:14px; padding:6px 10px 0px  0px; height:43px; text-align:right; } 
 
 .inputbx{float:left;color:#6D145E;font-size:13px; width:90%; clear:both; margin:0px 3%; }	
 .inputbx  p.inp{float:left; width:97%; margin:0px 0px 0px 0px; }
@@ -61,21 +61,21 @@ background-image: linear-gradient(to bottom, #FAC6D6 0%, #F7E7EC 100%);}
 .dtform ul li input a{ color:#757575; font-size:22px; }
 
 .dtform ul li p.inp{float:left; width:55%; margin:0px 0px 0px 15px; }
-.dtform ul li input{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%; }
+.dtform ul li input{ font-size:18px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px solid #D6D2CB; border-right:1px solid #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%; }
 
-.dtform ul li select{ font-size:22px; font-weight:normal; border:1px solid #D6D2CB; color:#757575; padding:4px 10px 7px 10px; 
-margin:0px 0px ; width:103%; }
+.dtform ul li select{ font-size:18px; font-weight:normal; border:1px solid #D6D2CB; color:#757575; padding:4px 10px 7px 10px; 
+margin:0px 0px ; width:100%; }
 .dtform ul li select option{ margin-bottom:10px}
-.dtform ul li textarea{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;   border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%;}
+.dtform ul li textarea{ font-size:18px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px solid #D6D2CB; border-right:1px solid #D6D2CB;   border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:93%;}
 
 
-.listform {float:left;color:#6D145E;font-size:13px; width:90%; clear:both; margin:50px 3% 0px 3%; }	
+.listform {float:left;color:#6D145E;font-size:13px; width:100%; clear:both; margin:50px 0; }	
 .listform ul{list-style:none; margin:0px; padding:0px;}	
 .listform ul li {line-height:38px;  float:left; width:100%;  margin:0px 0px;   }
-.listform ul li p.lab{float:left; width:15%; line-height:20px; margin:0px 0px 0px 5%    }
+.listform ul li p.lab{float:left; width:15%; line-height:20px; margin:0px;    }
 .listform ul li label{ font-size:14px;   text-align:right; width:100%;  }
-.listform ul li p.inp{float:left; width:73%; margin:0px 0px 0px 15px; }
-.listform ul li input{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%; }
+.listform ul li p.inp{float:left; width:73%; margin:0px 0px 0px 10px; }
+.listform ul li input{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px solid #D6D2CB; border-right:1px solid #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%; }
 
 
 .lstdtfrmn {float:left;font-size:13px; width:90%; clear:both; margin:0px 3%}	
@@ -224,11 +224,11 @@ margin:0px 0px ; width:103%; }
 .dtform ul li p.lab{float:left; width:26%; line-height:20px;    }
 .dtform ul li label{ font-size:14px;  text-align:right  }
 .dtform ul li p.inp{float:left; width:69%; margin:0px 0px 0px 15px; }
-.dtform ul li input{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%; }
+.dtform ul li input{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px solid #D6D2CB; border-right:1px solid #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%; }
 .dtform ul li select{ font-size:22px; font-weight:normal; border:1px solid #D6D2CB; color:#757575; padding:4px 10px 7px 10px; 
 margin:0px 0px ; width:103%; }
 .dtform ul li select option{ margin-bottom:10px}
-.dtform ul li textarea{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px outset #D6D2CB; border-right:1px medium #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%;}
+.dtform ul li textarea{ font-size:22px; font-weight:normal; border-bottom:1px solid #D6D2CB; border-left: 1px solid #D6D2CB; border-right:1px solid #D6D2CB;  border-top:none; color:#757575; padding:0px 10px 10px 10px; margin:0px 0px ; width:100%;}
 
 .dbadmin {float:left;padding-top:20px;font-size:13px; width:90%; clear:both; margin:0px 3% }	
 .dbadmin {float:left;padding-top:20px;font-size:13px; width:90%; clear:both; margin:0px 3% }
@@ -309,7 +309,7 @@ welsc { width:90%; clear:both;  margin:24px 3% 0px 3% }
 
 .device { background:#fff; height: 34px; margin: 30px 5% 5px 5%;position: relative; width: 90%; clear:both }
 
-.swiper-container {   height: 440px; width: 96%; margin:0px 2% 0px 2%;  z-index:2}   /*height: 360px; */
+.swiper-container { width: 96%; margin:0px 2% 0px 2%;  z-index:2}   /*height: 360px; */
 .device .arrow-left {  background: url(img/arrows.png) no-repeat left top; position: absolute;
   left: 10px; top: 50%; margin-top: -15px; width: 17px; height: 30px; }  
 .device .arrow-right {  background: url(img/arrows.png) no-repeat left bottom;  position: absolute; right: 10px;
@@ -382,7 +382,7 @@ welsc { width:90%; clear:both;  margin:24px 3% 0px 3% }
 .welsc { width:90%; clear:both;  margin:24px 3% 0px 3% }
 .welhead{font-size:23px;  padding:4px 0px 10px 0px}
 .weltxt p{  font-size:15px; line-height:25px; text-align:justify; padding:5px 0px  }
-.swiper-container {   height: 274px !important; width: 96%; z-index:2 } 
+.swiper-container { width: 96%; z-index:2 } 
 .container_height { height:56px !important; }
 .weltxt img{ width:100%}
 
@@ -480,8 +480,8 @@ welsc { width:90%; clear:both;  margin:24px 3% 0px 3% }
 }
 @media (min-width: 450px) and (max-width: 650px) 
 {
-    .text_search_wrapper { width:109% !important; }
-    .text_search_wrapper input {width:74% !important;}
+    /*.text_search_wrapper { width:109% !important; }
+    .text_search_wrapper input {width:74% !important;}*/
 }
 .footer { left: 0px !important;right: 0px !important;}
 /*.dlist ul{ padding-bottom:0px !important;	}*/

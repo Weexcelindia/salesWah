@@ -3,46 +3,734 @@
 }
 
 @media only screen and (max-width: 800px){
+.dtform ul li input {
+        width: 94% !important;
+    }
+.listform ul li input {
+        width: 94% !important;
+    }
+    .listform ul li label {
+    font-size: 14px !important;
+}
+.dtform ul li select {
+        width: 98% !important;
+    }
+.dtform ul li textarea {
+        width: 94% !important;
+    }
+    .detail_nav1 {
+    margin:8px 10% 0 !important;
+    }
+    .detail_nav2 {
+    margin:8px 9% 0 !important;
+    }
+    .detail_nav3 {
+    margin:8px 10% 0 !important;
+    }
 
+    .dtform ul li p.lab{
+        width:30% !important;
+    }
+    .dtform ul li p.inp{
+        width:67% !important;
+    }
+
+    .device .arrow-left{
+        margin-left:0 !important;
+    }
+    .device{
+        width:800px !important;
+    }
+    .dtform ul li label {
+    font-size: 18px !important;
+}
+    .detail_nav1 figure figcaption{
+        font-size:18px !important;
+    }
+    .detail_nav2 figure figcaption{
+        font-size:18px !important;
+    }
+    .detail_nav3 figure figcaption{
+        font-size:18px !important;
+    }
+    .text_search_wrapper{
+        width:97% !important;
+    }
+    #AddNewTaskDetailstxtAccountName{
+        width:89% !important;
+    } 
+    #ProposalDetailstxtContactName {
+    font-size: 18px;
+    width: 89% !important;
+}
+    .dtform ul li p.inp a{
+       font-size:18px !important;
+   }
+    #AddNewDealDetailstxtAccountName{
+    font-size: 14px;
+    width: 89% !important;
+   }
 }
 
 @media only screen and (max-width: 768px){
+    .dtform ul li input {
+        width: 94% !important;
+    }
+    .listform ul li input {
+        width: 94% !important;
+    }
+    .listform ul li label {
+    font-size: 14px !important;
+}
+    .detail_nav1 {
+    margin:8px 10% 0 !important;
+    }
+    .detail_nav2 {
+    margin:8px 9% 0 !important;
+    }
+    .detail_nav3 {
+    margin:8px 10% 0 !important;
+    }
 
+    .dtform ul li p.lab{
+        width:30% !important;
+    }
+    .dtform ul li p.inp{
+        width:67% !important;
+    }
+
+    .device .arrow-left{
+        margin-left:0 !important;
+    }
+    .device{
+        width:768px !important;
+    }
+    .dtform ul li label {
+    font-size: 18px !important;
+}
+.detail_nav1 figure figcaption{
+        font-size:18px !important;
+    }
+.detail_nav2 figure figcaption{
+        font-size:18px !important;
+    }
+.detail_nav3 figure figcaption{
+        font-size:18px !important;
+    }
+.hedmid{
+    width:55% !important;
+    }
+.text_search_wrapper{
+        width:97% !important;
+    }
+#AddNewTaskDetailstxtAccountName{
+        width:88% !important;
+    } 
+#ProposalDetailstxtContactName {
+    font-size: 18px;
+    width: 88% !important;
+}
+.dtform ul li p.inp a{
+       font-size:18px !important;
+   }
+#AddNewDealDetailstxtAccountName{
+    font-size: 14px;
+    width: 88% !important;
+   }
 }
 
 @media only screen and (max-width: 640px){
+    .dtform ul li input {
+        width: 94% !important;
+    }
+    .listform ul li input {
+        width: 94% !important;
+    }
+    .listform ul li label {
+    font-size: 14px !important;
+}
+    .detail_nav1 {
+    margin:8px 10% 0 !important;
+    }
+    .detail_nav2 {
+    margin:8px 9% 0 !important;
+    }
+    .detail_nav3 {
+    margin:8px 10% 0 !important;
+    }
 
+    .dtform ul li p.lab{
+        width:30% !important;
+    }
+    .dtform ul li p.inp{
+        width:67% !important;
+    }
+
+    .device .arrow-left{
+        margin-left:0 !important;
+    }
+    .device{
+        width:640px !important;
+    }
+    .dtform ul li label {
+    font-size: 16px !important;
+}
+        .detail_nav1 figure figcaption{
+        font-size:16px !important;
+    }
+        .detail_nav2 figure figcaption{
+        font-size:16px !important;
+    }
+        .detail_nav3 figure figcaption{
+        font-size:16px !important;
+    }
+        .text_search_wrapper{
+        width:97% !important;
+    }
+        #AddNewTaskDetailstxtAccountName{
+        width:86% !important;
+    } 
+        #ProposalDetailstxtContactName {
+    font-size: 16px;
+    width: 86% !important;
+}
+        .dtform ul li p.inp a{
+       font-size:16px !important;
+   }
+        #AddNewDealDetailstxtAccountName{
+    font-size: 14px;
+    width: 86% !important;
+   }
 }
 
 @media only screen and (max-width: 600px){
+.dtform ul li input {
+        width: 94% !important;
+    }
+.listform ul li input {
+        width: 94% !important;
+    }
+    .listform ul li label {
+    font-size: 14px !important;
+}
+    .detail_nav1 {
+    margin:8px 10% 0 !important;
+    }
+    .detail_nav2 {
+    margin:8px 9% 0 !important;
+    }
+    .detail_nav3 {
+    margin:8px 10% 0 !important;
+    }
 
+    .dtform ul li p.lab{
+        width:30% !important;
+    }
+    .dtform ul li p.inp{
+        width:67% !important;
+    }
+
+    .device .arrow-left{
+        margin-left:0 !important;
+    }
+    .device{
+        width:600px !important;
+    }
+    .dtform ul li label {
+    font-size: 16px !important;
+}
+        .detail_nav1 figure figcaption{
+        font-size:16px !important;
+    }
+        .detail_nav2 figure figcaption{
+        font-size:16px !important;
+    }
+        .detail_nav3 figure figcaption{
+        font-size:16px !important;
+    }
+        .text_search_wrapper{
+        width:97% !important;
+    }
+        #AddNewTaskDetailstxtAccountName{
+        width:85% !important;
+    } 
+        #ProposalDetailstxtContactName {
+    font-size: 16px;
+    width: 85% !important;
+}
+        .dtform ul li p.inp a{
+       font-size:14px !important;
+   }
+        #AddNewDealDetailstxtAccountName{
+    font-size: 14px;
+    width: 85% !important;
+   }
 }
 
 @media only screen and (max-width: 540px){
+    
+    .dtform ul li input {
+        width: 93% !important;
+    }
+    .listform ul li input {
+        width: 93% !important;
+    }
+    .listform ul li label {
+    font-size: 14px !important;
+}
+    .detail_nav1 {
+    margin:8px 9% 0 !important;
+    }
+    .detail_nav2 {
+    margin:8px 8% 0 !important;
+    }
+    .detail_nav3 {
+    margin:8px 9% 0 !important;
+    }
 
+    .dtform ul li p.lab{
+        width:30% !important;
+    }
+    .dtform ul li p.inp{
+        width:66% !important;
+    }
+
+    .listform ul li p.lab{
+        width:30% !important;
+    }
+    .listform ul li p.inp{
+        width:66% !important;
+    }
+
+    .device .arrow-left{
+        margin-left:0 !important;
+    }
+    .device{
+        width:540px !important;
+    }
+    .dtform ul li label {
+    font-size: 16px !important;
+}
+        .detail_nav1 figure figcaption{
+        font-size:16px !important;
+    }
+        .detail_nav2 figure figcaption{
+        font-size:16px !important;
+    }
+        .detail_nav3 figure figcaption{
+        font-size:16px !important;
+    }
+        .hedmid{
+    width:53% !important;
+    }
+        .text_search_wrapper{
+        width:97% !important;
+    }
+        #AddNewTaskDetailstxtAccountName{
+        width:83% !important;
+    } 
+        #ProposalDetailstxtContactName {
+    font-size: 16px;
+    width: 82% !important;
+}
+        .dtform ul li p.inp a{
+       font-size:16px !important;
+   }
+        #AddNewDealDetailstxtAccountName{
+    font-size: 14px;
+    width: 83% !important;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .swiper-container{
+        height:640px !important;
+    }
+
+    .dtform ul li input {
+        width: 93% !important;
+    }
+    .listform ul li input {
+        width: 93% !important;
+    }
+    .listform ul li label {
+    font-size: 14px !important;
+}
+    .detail_nav1 {
+    margin:8px 8% 0 !important;
+    }
+    .detail_nav2 {
+    margin:8px 7% 0 !important;
+    }
+    .detail_nav3 {
+    margin:8px 8% 0 !important;
+    }
+    .device{
+    width:480px !important;
+    }
+    .dtform ul li label {
+    font-size: 14px !important;
+}
+    .detail_nav1 figure figcaption{
+    font-size:14px !important;
+    }
+    .detail_nav2 figure figcaption{
+    font-size:14px !important;
+    }
+    .detail_nav3 figure figcaption{
+    font-size:14px !important;
+    }
+    .hedmid{
+    width:52% !important;
+    }
+    .text_search_wrapper{
+        width:97% !important;
+    }
+    #AddNewTaskDetailstxtAccountName{
+        width:81% !important;
+    } 
+    #ProposalDetailstxtContactName {
+    font-size: 14px;
+    width: 79% !important;
+}
+    .dtform ul li p.inp a{
+       font-size:14px !important;
+   }
+    #AddNewDealDetailstxtAccountName{
+    font-size: 14px;
+    width: 81% !important;
+   }
 }
 
 @media only screen and (max-width: 384px){
-
+    .dtform ul li input {
+        width: 90% !important;
+    }
+    .listform ul li input {
+        width: 90% !important;
+    }
+    .listform ul li label {
+    font-size: 14px !important;
 }
 
-@media only screen and (max-width: 360px){
-.swiper-container {
-    height: 361px;
-    width: 100%;
+ .detail_nav1 {
+    margin:8px 6% 0 !important;
+    }
+    .detail_nav2 {
+    margin:8px 5% 0 !important;
+    }
+    .detail_nav3 {
+    margin:8px 6% 0 !important;
+    }	
+    .dtform ul li label {
+    font-size: 14px !important;
 }
-
-.swiper-slide {height: 300px;}
- 	
+        .detail_nav1 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav2 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav3 figure figcaption{
+        font-size:14px !important;
+    }
 	
- .swiper-slide div figure img{ width:30%;}
- 	
+ /*.swiper-slide div figure img{ width:30%;}*/
+ 	.device{
+        width:384px !important;
+    }
 	.device {
     font-size:13px;	
     margin-top: 80px !important;
    height: 355px;
     margin: 5px auto;
     position: relative;
-    width: 100%;
-}   
+}  
+    .swiper-container {   height: 320px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 320px !important;
+            } 
+            .hedmid{
+        width:50% !important;
+    }
+            .text_search_wrapper{
+        width:99% !important;
+    }
+            #AddNewTaskDetailstxtAccountName{
+        width:77% !important;
+    } 
+            #ProposalDetailstxtContactName {
+    font-size: 14px;
+    width: 75% !important;
 }
+            .dtform ul li p.inp a{
+       font-size:14px !important;
+   }
+            #AddNewDealDetailstxtAccountName{
+    font-size: 14px;
+    width: 77% !important;
+   }
+}
+
+@media only screen and (max-width: 360px){
+
+.dtform ul li input {
+        width: 90% !important;
+    }
+
+ .detail_nav1 {
+    margin:8px 5% 0 !important;
+    }
+    .detail_nav2 {
+    margin:8px 4% 0 !important;
+    }
+    .detail_nav3 {
+    margin:8px 5% 0 !important;
+    }	
+    .dtform ul li label {
+    font-size: 14px !important;
+}
+
+    .listform ul li input {
+        width: 90% !important;
+    }
+    .listform ul li label {
+    font-size: 14px !important;
+}
+        .detail_nav1 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav2 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav3 figure figcaption{
+        font-size:14px !important;
+    }
+	
+ /*.swiper-slide div figure img{ width:30%;}*/
+ 	.device{
+        width:360px !important;
+    }
+	.device {
+    font-size:13px;	
+    margin-top: 80px !important;
+   height: 355px;
+    margin: 5px auto;
+    position: relative;
+}  
+    .swiper-container {   height: 320px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 320px !important;
+            } 
+        .hedmid{
+        width:50% !important;
+    }
+        .text_search_wrapper{
+        width:99% !important;
+    }
+        #AddNewTaskDetailstxtAccountName{
+        width:76% !important;
+    } 
+        #ProposalDetailstxtContactName {
+    font-size: 14px;
+    width: 73% !important;
+}
+        .dtform ul li p.inp a{
+       font-size:14px !important;
+   }
+        #AddNewDealDetailstxtAccountName{
+    font-size: 14px;
+    width: 76% !important;
+   }
+}
+
+@media only screen and (max-width: 320px) {
+
+.dtform ul li input {
+        width: 88% !important;
+    }
+
+.dtform ul li select {
+        width: 100% !important;
+    }
+
+.dtform ul li textarea {
+        width: 88% !important;
+    }
+.listform ul li input {
+        width: 88% !important;
+    }
+    .listform ul li label {
+    font-size: 14px !important;
+}
+
+ .detail_nav1 {
+    margin:8px 5% 0 !important;
+    }
+    .detail_nav2 {
+    margin:8px 4% 0 !important;
+    }
+    .detail_nav3 {
+    margin:8px 5% 0 !important;
+    }	
+    .dtform ul li label {
+    font-size: 14px !important;
+}
+    .detail_nav1 figure figcaption{
+        font-size:14px !important;
+    }
+    .detail_nav2 figure figcaption{
+        font-size:14px !important;
+    }
+    .detail_nav3 figure figcaption{
+        font-size:14px !important;
+    }
+	
+ /*.swiper-slide div figure img{ width:30%;}*/
+ 	
+ .device{
+        width:320px !important;
+    }
+	.device {
+    font-size:13px;	
+    height: 355px;
+    margin: 80px auto 5px !important;
+    position: relative;
+}  
+
+    .hedmid{
+        width:49% !important;
+    }
+    .text_search_wrapper{
+        width:99% !important;
+    }
+   #AddNewTaskDetailstxtAccountName{
+        width:73% !important;
+    } 
+
+   #ProposalDetailstxtContactName {
+    font-size: 14px;
+    width: 70% !important;
+}
+   .dtform ul li p.inp a{
+       font-size:14px !important;
+   }
+   #AddNewDealDetailstxtAccountName{
+    font-size: 14px;
+    width: 73% !important;
+   }
+     
+}
+
+
+
+/*--- scrolling height adjustment for different screens ---*/
+
+@media only screen and (max-height:1280px) {
+    .swiper-container {   height: 1120px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 1120px !important;
+            }
+}
+
+@media only screen and (max-height:1024px) {
+    .swiper-container {   height: 864px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 864px !important;
+            }
+}
+
+@media only screen and (max-height:960px) {
+    .swiper-container {   height: 800px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 800px !important;
+            }
+}
+
+@media only screen and (max-height:800px) {
+    .swiper-container {   height: 640px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 640px !important;
+            }
+}
+
+@media only screen and (max-height:768px) {
+    .swiper-container {   height: 608px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 608px !important;
+            }
+}
+
+@media only screen and (max-height:736px) {
+    .swiper-container {   height: 576px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 576px !important;
+            }
+}
+
+@media only screen and (max-height:640px) {
+    .swiper-container {   height: 480px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 480px !important;
+            }
+}
+
+@media only screen and (max-height:615px) {
+    .swiper-container {   height: 455px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 455px !important;
+            }
+}
+
+@media only screen and (max-height:600px) {
+    .swiper-container {   height: 440px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 440px !important;
+            }
+}
+
+@media only screen and (max-height:568px) {
+    .swiper-container {   height: 408px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 408px !important;
+            }
+}
+
+@media only screen and (max-height:533px) {
+    .swiper-container {   height: 373px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 373px !important;
+            }
+}
+
+@media only screen and (max-height:496px) {
+    .swiper-container {   height: 336px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 336px !important;
+            }
+}
+
+@media only screen and (max-height:480px) {
+    .swiper-container {   height: 320px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 320px !important;
+            }
+}
+
+/*--- scrolling height adjustment for different screens ---*/

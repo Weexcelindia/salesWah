@@ -15,14 +15,9 @@
         .footer { background-color:#aba000} 
 .dlist ul li a h4 {color:#FF2D6C; text-decoration:none;}
 .dtform {float:left;color:#FF2D6C;font-size:13px; width:100%; clear:both; margin:0}	
-.footer{ width:100%; margin-top: 10px; background-color:#FF2D6C; height:17px ; padding:8px 0px 15px 0px; clear:both;  bottom:0px; z-index:5; text-align:center;}
+.footer{ width:100%; margin-top: 10px; background-color:#FF2D6C; height:17px ; padding:8px 0px 15px 0px; clear:both;  bottom:0px; z-index:5; text-align:center; position:fixed;}
 .active_page{ background:#FF2D6C; color:white !important; }
 .dbadmin {float:left;color:#FF2D6C;font-size:13px; width:90%; clear:both; margin:0px 3% }	
  progress::-webkit-progress-bar {  background-color:#FF2D6C; }   
  progress::-moz-progress-bar {    background-color:#FF2D6C; } 
  .ui-autocomplete li{ font-size:17px; font-weight:normal; color:#FF2D6C; line-height:30px ;}
-  @media (max-width: 320px) 
-        {
-          .swiper-container {   height: 290px !important; width: 96%; z-index:2 }   
-          .container_height{height: 56px !important;}
-        }

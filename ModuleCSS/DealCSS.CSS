@@ -14,8 +14,8 @@ background-image: linear-gradient(to bottom, #d7d8a7 0%, #f5fcfa 100%);}
         .dtform {color:#6D145E;}
         .footer { background-color:#aba000} 
 .dlist ul li a h4 {color:#9f9700; text-decoration:none;}
-.dtform {float:left;color:#6D145E;font-size:13px; width:90%; clear:both; margin:0px 3%}	
-.footer{ width:100%; margin-top: 25px; background-color:#aba000; height:18px ; padding:8px 0px 15px 0px; clear:both;  bottom:0px; z-index:5; text-align:center;}
+.dtform {float:left;color:#6D145E;font-size:13px; width:100%; clear:both; margin:0px;}	
+.footer{ width:100%; margin-top: 25px; background-color:#aba000; height:18px ; padding:8px 0px 15px 0px; clear:both;  bottom:0px; z-index:5; text-align:center; position:fixed;}
 .active_page{ background:#9f9700; color:white !important; }
 .dbadmin {float:left;color:#9f9700;font-size:13px; width:90%; clear:both; margin:0px 3% }	
  progress::-webkit-progress-bar {  background-color:#9f9700; }   
