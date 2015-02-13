@@ -43,7 +43,7 @@ function LoadLanguage(Language) {
             Search: 'Search',
             Detail: 'Detail',
             Dashboard: 'Dashboard',
-            DealHeaderLabelDecisionmaker: 'Decision Maker',
+            DealHeaderLabelDecisionmaker: 'Decision </br>Maker',
             Message: 'Message',
             Messages: 'Messages',
             AccountName: 'Account Name',
