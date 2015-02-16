@@ -35,6 +35,13 @@
         width:67% !important;
     }
 
+    .listform ul li p.lab{
+        width:30% !important;
+    }
+    .listform ul li p.inp{
+        width:67% !important;
+    }
+
     .device .arrow-left{
         margin-left:0 !important;
     }
@@ -104,6 +111,12 @@
     .dtform ul li p.inp{
         width:67% !important;
     }
+    .listform ul li p.lab{
+        width:30% !important;
+    }
+    .listform ul li p.inp{
+        width:67% !important;
+    }
 
     .device .arrow-left{
         margin-left:0 !important;
@@ -130,7 +143,7 @@
         font-size:18px !important;
     }
 .hedmid{
-    width:55% !important;
+    width:54% !important;
     }
 .text_search_wrapper{
         width:97% !important;
@@ -175,6 +188,12 @@
         width:30% !important;
     }
     .dtform ul li p.inp{
+        width:67% !important;
+    }
+    .listform ul li p.lab{
+        width:30% !important;
+    }
+    .listform ul li p.inp{
         width:67% !important;
     }
 
@@ -247,6 +266,12 @@
     .dtform ul li p.inp{
         width:67% !important;
     }
+    .listform ul li p.lab{
+        width:30% !important;
+    }
+    .listform ul li p.inp{
+        width:67% !important;
+    }
 
     .device .arrow-left{
         margin-left:0 !important;
@@ -286,7 +311,11 @@
        font-size:14px !important;
    }
         #AddNewDealDetailstxtAccountName{
-    font-size: 14px;
+    font-size: 16px;
+    width: 85% !important;
+   }
+        #AppointmentAddNewtxtAddGuest{
+    font-size: 16px;
     width: 85% !important;
    }
 }
@@ -367,7 +396,11 @@
        font-size:16px !important;
    }
         #AddNewDealDetailstxtAccountName{
-    font-size: 14px;
+    font-size: 16px;
+    width: 83% !important;
+   }
+        #AppointmentAddNewtxtAddGuest{
+    font-size: 16px;
     width: 83% !important;
    }
 }
@@ -437,6 +470,19 @@
     font-size: 14px;
     width: 81% !important;
    }
+    #AppointmentAddNewtxtAddGuest{
+    font-size: 14px;
+    width: 81% !important;
+   }
+    .dlist ul li a h4{
+        font-size:16px !important;
+    }
+    .dlist ul li p{
+        font-size:14px !important;
+    }
+    .dlist ul li span{
+        font-size:14px !important;
+    }
 }
 
 @media only screen and (max-width: 400px){
@@ -484,9 +530,7 @@
     }
 	.device {
     font-size:13px;	
-    margin-top: 80px !important;
    height: 355px;
-    margin: 5px auto;
     position: relative;
 }  
   
@@ -510,6 +554,19 @@
     font-size: 14px;
     width: 77% !important;
    }
+            #AppointmentAddNewtxtAddGuest{
+    font-size: 14px;
+    width: 77% !important;
+   }
+            .dlist ul li a h4{
+        font-size:16px !important;
+    }
+    .dlist ul li p{
+        font-size:14px !important;
+    }
+    .dlist ul li span{
+        font-size:14px !important;
+    }
 }
 
 @media only screen and (max-width: 384px){
@@ -557,9 +614,7 @@
     }
 	.device {
     font-size:13px;	
-    margin-top: 80px !important;
    height: 355px;
-    margin: 5px auto;
     position: relative;
 } 
             .hedmid{
@@ -582,6 +637,19 @@
     font-size: 14px;
     width: 77% !important;
    }
+            #AppointmentAddNewtxtAddGuest{
+    font-size: 14px;
+    width: 77% !important;
+   }
+            .dlist ul li a h4{
+        font-size:16px !important;
+    }
+    .dlist ul li p{
+        font-size:14px !important;
+    }
+    .dlist ul li span{
+        font-size:14px !important;
+    }
 }
 
 @media only screen and (max-width: 360px){
@@ -589,15 +657,22 @@
 .dtform ul li input {
         width: 90% !important;
     }
+.dtform ul li select {
+        width: 100% !important;
+    }
+
+.dtform ul li textarea {
+        width: 88% !important;
+    }
 
  .detail_nav1 {
-    margin:8px 5% 0 !important;
+    margin:8px 7% 0 !important;
     }
     .detail_nav2 {
-    margin:8px 4% 0 !important;
+    margin:8px 5% 0 !important;
     }
     .detail_nav3 {
-    margin:8px 5% 0 !important;
+    margin:8px 7% 0 !important;
     }	
     .dtform ul li label {
     font-size: 14px !important;
@@ -631,9 +706,7 @@
     }
 	.device {
     font-size:13px;	
-    margin-top: 80px !important;
    height: 355px;
-    margin: 5px auto;
     position: relative;
 }  
         .hedmid{
@@ -656,6 +729,19 @@
     font-size: 14px;
     width: 76% !important;
    }
+        #AppointmentAddNewtxtAddGuest{
+    font-size: 14px;
+    width: 76% !important;
+   }
+    .dlist ul li a h4{
+        font-size:16px !important;
+    }
+    .dlist ul li p{
+        font-size:14px !important;
+    }
+    .dlist ul li span{
+        font-size:14px !important;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -715,7 +801,6 @@
 	.device {
     font-size:13px;	
     height: 355px;
-    margin: 80px auto 5px !important;
     position: relative;
 }  
 
@@ -740,6 +825,19 @@
     font-size: 14px;
     width: 73% !important;
    }
+   #AppointmentAddNewtxtAddGuest{
+    font-size: 14px;
+    width: 73% !important;
+   }
+   .dlist ul li a h4{
+        font-size:16px !important;
+    }
+    .dlist ul li p{
+        font-size:14px !important;
+    }
+    .dlist ul li span{
+        font-size:14px !important;
+    }
      
 }
 
@@ -748,43 +846,153 @@
 /*--- scrolling height adjustment for different screens ---*/
 
 @media only screen and (max-height:1280px) {
-    .swiper-container {   height: 1120px !important; z-index:2 } 	
+    .swiper-container {   height: 1105px !important; z-index:2 } 	
             .swiper-parent
             {
-                height: 1120px !important;
+                height: 1105px !important;
             }
+            .margin-space{margin-top:55px !important;}
+            .deal_dashboard2_done{margin:10% 0 !important;}
+    .deal_dashboard2_dtwo{margin:10% 0 !important;}
+    .deal_dashboard2_thre{margin:10% 0 !important;}
+    .deal_dashboard2_for{margin:10% 0 !important;}
+    .deal_dashboard1_six{margin:10% 0 !important;}
+    .deal_dashboard2_five{margin:10% 0 !important;}
+    .deal_dashboard2_left{margin:10% 0 !important;}
+    .deal_dashboard2_one{margin:10% 0 !important;}
+    .deal_dashboard2_two{margin:10% 0 !important;}
+    .deal_dashboard2_three{margin:10% 0 !important;}
+    .deal_dashboard2_fifth{margin:10% 0 !important;}
+    .deal_dashboard2_four{margin:10% 0 !important;}
+    .deal_dashboard3_left{margin:10% 0 !important;}
+    .deal_dashboard3_one{margin:10% 0 !important;}
+    .deal_dashboard3_two{margin:10% 0 !important;}
+    .deal_dashboard2_thee{margin:10% 0 !important;}
+    .deal_dashboard2_eleven{margin:10% 0 !important;}
+    .deal_dashboard2_twelve{margin:10% 0 !important;}
+    .device{margin:150px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:100% !important;}
+    .device .arrow-right{margin-top:0 !important; top:100% !important;}
 }
 
 @media only screen and (max-height:1024px) {
-    .swiper-container {   height: 864px !important; z-index:2 } 	
+    .swiper-container {   height: 849px !important; z-index:2 } 	
             .swiper-parent
             {
-                height: 864px !important;
+                height: 849px !important;
             }
+            .margin-space{margin-top:55px !important;}
+        .deal_dashboard2_done{margin:8.5% 0 !important;}
+    .deal_dashboard2_dtwo{margin:8.5% 0 !important;}
+    .deal_dashboard2_thre{margin:8.5% 0 !important;}
+    .deal_dashboard2_for{margin:8.5% 0 !important;}
+    .deal_dashboard1_six{margin:8.5% 0 !important;}
+    .deal_dashboard2_five{margin:8.5% 0 !important;}
+    .deal_dashboard2_left{margin:8.5% 0 !important;}
+    .deal_dashboard2_one{margin:8.5% 0 !important;}
+    .deal_dashboard2_two{margin:8.5% 0 !important;}
+    .deal_dashboard2_three{margin:8.5% 0 !important;}
+    .deal_dashboard2_fifth{margin:8.5% 0 !important;}
+    .deal_dashboard2_four{margin:8.5% 0 !important;}
+    .deal_dashboard3_left{margin:8.5% 0 !important;}
+    .deal_dashboard3_one{margin:8.5% 0 !important;}
+    .deal_dashboard3_two{margin:8.5% 0 !important;}
+    .deal_dashboard2_thee{margin:8.5% 0 !important;}
+    .deal_dashboard2_eleven{margin:8.5% 0 !important;}
+    .deal_dashboard2_twelve{margin:8.5% 0 !important;}
+    .device{margin:130px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:80% !important;}
+    .device .arrow-right{margin-top:0 !important; top:80% !important;}
 }
 
 @media only screen and (max-height:960px) {
-    .swiper-container {   height: 800px !important; z-index:2 } 	
+    .swiper-container {   height: 785px !important; z-index:2 } 	
             .swiper-parent
             {
-                height: 800px !important;
+                height: 785px !important;
             }
+            .margin-space{margin-top:55px !important;}
+            .deal_dashboard2_done{margin:35px 0 !important;}
+    .deal_dashboard2_dtwo{margin:35px 0 !important;}
+    .deal_dashboard2_thre{margin:35px 0 !important;}
+    .deal_dashboard2_for{margin:35px 0 !important;}
+    .deal_dashboard1_six{margin:35px 0 !important;}
+    .deal_dashboard2_five{margin:35px 0 !important;}
+    .deal_dashboard2_left{margin:35px 0 !important;}
+    .deal_dashboard2_one{margin:35px 0 !important;}
+    .deal_dashboard2_two{margin:35px 0 !important;}
+    .deal_dashboard2_three{margin:35px 0 !important;}
+    .deal_dashboard2_fifth{margin:35px 0 !important;}
+    .deal_dashboard2_four{margin:35px 0 !important;}
+    .deal_dashboard3_left{margin:35px 0 !important;}
+    .deal_dashboard3_one{margin:35px 0 !important;}
+    .deal_dashboard3_two{margin:35px 0 !important;}
+    .deal_dashboard2_thee{margin:35px 0 !important;}
+    .deal_dashboard2_eleven{margin:35px 0 !important;}
+    .deal_dashboard2_twelve{margin:35px 0 !important;}
+    .device{margin:130px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:58% !important;}
+    .device .arrow-right{margin-top:0 !important; top:58% !important;}
 }
 
 @media only screen and (max-height:800px) {
-    .swiper-container {   height: 640px !important; z-index:2 } 	
+    .swiper-container {   height: 625px !important; z-index:2 } 	
             .swiper-parent
             {
-                height: 640px !important;
+                height: 625px !important;
             }
+            .margin-space{margin-top:55px !important;}
+            .deal_dashboard2_done{margin:35px 0 !important;}
+    .deal_dashboard2_dtwo{margin:35px 0 !important;}
+    .deal_dashboard2_thre{margin:35px 0 !important;}
+    .deal_dashboard2_for{margin:35px 0 !important;}
+    .deal_dashboard1_six{margin:35px 0 !important;}
+    .deal_dashboard2_five{margin:35px 0 !important;}
+    .deal_dashboard2_left{margin:35px 0 !important;}
+    .deal_dashboard2_one{margin:35px 0 !important;}
+    .deal_dashboard2_two{margin:35px 0 !important;}
+    .deal_dashboard2_three{margin:35px 0 !important;}
+    .deal_dashboard2_fifth{margin:35px 0 !important;}
+    .deal_dashboard2_four{margin:35px 0 !important;}
+    .deal_dashboard3_left{margin:35px 0 !important;}
+    .deal_dashboard3_one{margin:35px 0 !important;}
+    .deal_dashboard3_two{margin:35px 0 !important;}
+    .deal_dashboard2_thee{margin:35px 0 !important;}
+    .deal_dashboard2_eleven{margin:35px 0 !important;}
+    .deal_dashboard2_twelve{margin:35px 0 !important;}
+    .device{margin:110px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:58% !important;}
+    .device .arrow-right{margin-top:0 !important; top:58% !important;}
 }
 
 @media only screen and (max-height:768px) {
-    .swiper-container {   height: 608px !important; z-index:2 } 	
+    .swiper-container {   height: 593px !important; z-index:2 } 	
             .swiper-parent
             {
-                height: 608px !important;
+                height: 593px !important;
             }
+            .margin-space{margin-top:55px !important;}
+            .deal_dashboard2_done{margin:30px 0 !important;}
+    .deal_dashboard2_dtwo{margin:30px 0 !important;}
+    .deal_dashboard2_thre{margin:30px 0 !important;}
+    .deal_dashboard2_for{margin:30px 0 !important;}
+    .deal_dashboard1_six{margin:30px 0 !important;}
+    .deal_dashboard2_five{margin:30px 0 !important;}
+    .deal_dashboard2_left{margin:30px 0 !important;}
+    .deal_dashboard2_one{margin:30px 0 !important;}
+    .deal_dashboard2_two{margin:30px 0 !important;}
+    .deal_dashboard2_three{margin:30px 0 !important;}
+    .deal_dashboard2_fifth{margin:30px 0 !important;}
+    .deal_dashboard2_four{margin:30px 0 !important;}
+    .deal_dashboard3_left{margin:30px 0 !important;}
+    .deal_dashboard3_one{margin:30px 0 !important;}
+    .deal_dashboard3_two{margin:30px 0 !important;}
+    .deal_dashboard2_thee{margin:30px 0 !important;}
+    .deal_dashboard2_eleven{margin:30px 0 !important;}
+    .deal_dashboard2_twelve{margin:30px 0 !important;}
+    .device{margin:90px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:52% !important;}
+    .device .arrow-right{margin-top:0 !important; top:52% !important;}
 }
 
 @media only screen and (max-height:736px) {
@@ -796,59 +1004,204 @@
 }
 
 @media only screen and (max-height:640px) {
-    .swiper-container {   height: 480px !important; z-index:2 } 	
+    .swiper-container {   height: 465px !important; z-index:2 } 	
             .swiper-parent
             {
-                height: 480px !important;
+                height: 465px !important;
             }
+            .margin-space{margin-top:55px !important;}
+            .deal_dashboard2_done{margin:30px 0 !important;}
+    .deal_dashboard2_dtwo{margin:30px 0 !important;}
+    .deal_dashboard2_thre{margin:30px 0 !important;}
+    .deal_dashboard2_for{margin:30px 0 !important;}
+    .deal_dashboard1_six{margin:30px 0 !important;}
+    .deal_dashboard2_five{margin:30px 0 !important;}
+    .deal_dashboard2_left{margin:30px 0 !important;}
+    .deal_dashboard2_one{margin:30px 0 !important;}
+    .deal_dashboard2_two{margin:30px 0 !important;}
+    .deal_dashboard2_three{margin:30px 0 !important;}
+    .deal_dashboard2_fifth{margin:30px 0 !important;}
+    .deal_dashboard2_four{margin:30px 0 !important;}
+    .deal_dashboard3_left{margin:30px 0 !important;}
+    .deal_dashboard3_one{margin:30px 0 !important;}
+    .deal_dashboard3_two{margin:30px 0 !important;}
+    .deal_dashboard2_thee{margin:30px 0 !important;}
+    .deal_dashboard2_eleven{margin:30px 0 !important;}
+    .deal_dashboard2_twelve{margin:30px 0 !important;}
+    .device{margin:90px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:52% !important;}
+    .device .arrow-right{margin-top:0 !important; top:52% !important;}
 }
 
 @media only screen and (max-height:615px) {
-    .swiper-container {   height: 455px !important; z-index:2 } 	
-            .swiper-parent
-            {
-                height: 455px !important;
-            }
-}
-
-@media only screen and (max-height:600px) {
     .swiper-container {   height: 440px !important; z-index:2 } 	
             .swiper-parent
             {
                 height: 440px !important;
             }
+            .margin-space{margin-top:55px !important;}
+            .deal_dashboard2_done{margin:30px 0 !important;}
+    .deal_dashboard2_dtwo{margin:30px 0 !important;}
+    .deal_dashboard2_thre{margin:30px 0 !important;}
+    .deal_dashboard2_for{margin:30px 0 !important;}
+    .deal_dashboard1_six{margin:30px 0 !important;}
+    .deal_dashboard2_five{margin:30px 0 !important;}
+    .deal_dashboard2_left{margin:30px 0 !important;}
+    .deal_dashboard2_one{margin:30px 0 !important;}
+    .deal_dashboard2_two{margin:30px 0 !important;}
+    .deal_dashboard2_three{margin:30px 0 !important;}
+    .deal_dashboard2_fifth{margin:30px 0 !important;}
+    .deal_dashboard2_four{margin:30px 0 !important;}
+    .deal_dashboard3_left{margin:30px 0 !important;}
+    .deal_dashboard3_one{margin:30px 0 !important;}
+    .deal_dashboard3_two{margin:30px 0 !important;}
+    .deal_dashboard2_thee{margin:30px 0 !important;}
+    .deal_dashboard2_eleven{margin:30px 0 !important;}
+    .deal_dashboard2_twelve{margin:30px 0 !important;}
+    .device{margin:70px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:52% !important;}
+    .device .arrow-right{margin-top:0 !important; top:52% !important;}
+}
+
+@media only screen and (max-height:600px) {
+    .swiper-container {   height: 425px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 425px !important;
+            }
+            .margin-space{margin-top:55px !important;}
+            .deal_dashboard2_done{margin:30px 0 !important;}
+    .deal_dashboard2_dtwo{margin:30px 0 !important;}
+    .deal_dashboard2_thre{margin:30px 0 !important;}
+    .deal_dashboard2_for{margin:30px 0 !important;}
+    .deal_dashboard1_six{margin:30px 0 !important;}
+    .deal_dashboard2_five{margin:30px 0 !important;}
+    .deal_dashboard2_left{margin:30px 0 !important;}
+    .deal_dashboard2_one{margin:30px 0 !important;}
+    .deal_dashboard2_two{margin:30px 0 !important;}
+    .deal_dashboard2_three{margin:30px 0 !important;}
+    .deal_dashboard2_fifth{margin:30px 0 !important;}
+    .deal_dashboard2_four{margin:30px 0 !important;}
+    .deal_dashboard3_left{margin:30px 0 !important;}
+    .deal_dashboard3_one{margin:30px 0 !important;}
+    .deal_dashboard3_two{margin:30px 0 !important;}
+    .deal_dashboard2_thee{margin:30px 0 !important;}
+    .deal_dashboard2_eleven{margin:30px 0 !important;}
+    .deal_dashboard2_twelve{margin:30px 0 !important;}
+    .device{margin:70px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:52% !important;}
+    .device .arrow-right{margin-top:0 !important; top:52% !important;}
 }
 
 @media only screen and (max-height:568px) {
-    .swiper-container {   height: 408px !important; z-index:2 } 	
+    .swiper-container {   height: 393px !important; z-index:2 } 	
             .swiper-parent
             {
-                height: 408px !important;
+                height: 393px !important;
             }
+            .margin-space{margin-top:55px !important;}
+        .deal_dashboard2_done{margin:25px 0 !important;}
+    .deal_dashboard2_dtwo{margin:25px 0 !important;}
+    .deal_dashboard2_thre{margin:25px 0 !important;}
+    .deal_dashboard2_for{margin:25px 0 !important;}
+    .deal_dashboard1_six{margin:25px 0 !important;}
+    .deal_dashboard2_five{margin:25px 0 !important;}
+    .deal_dashboard2_left{margin:25px 0 !important;}
+    .deal_dashboard2_one{margin:25px 0 !important;}
+    .deal_dashboard2_two{margin:25px 0 !important;}
+    .deal_dashboard2_three{margin:25px 0 !important;}
+    .deal_dashboard2_fifth{margin:25px 0 !important;}
+    .deal_dashboard2_four{margin:25px 0 !important;}
+    .deal_dashboard3_left{margin:25px 0 !important;}
+    .deal_dashboard3_one{margin:25px 0 !important;}
+    .deal_dashboard3_two{margin:25px 0 !important;}
+    .deal_dashboard2_thee{margin:25px 0 !important;}
+    .deal_dashboard2_eleven{margin:25px 0 !important;}
+    .deal_dashboard2_twelve{margin:25px 0 !important;}
+    .device{margin:70px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:46% !important;}
+    .device .arrow-right{margin-top:0 !important; top:46% !important;}
 }
 
 @media only screen and (max-height:533px) {
-    .swiper-container {   height: 373px !important; z-index:2 } 	
-            .swiper-parent
-            {
-                height: 373px !important;
-            }
+    .swiper-container {   height: 358px !important; z-index:2 } 	
+        .swiper-parent{height: 358px !important;}
+        .margin-space{margin-top:55px !important;}
+        .deal_dashboard2_done{margin:25px 0 !important;}
+    .deal_dashboard2_dtwo{margin:25px 0 !important;}
+    .deal_dashboard2_thre{margin:25px 0 !important;}
+    .deal_dashboard2_for{margin:25px 0 !important;}
+    .deal_dashboard1_six{margin:25px 0 !important;}
+    .deal_dashboard2_five{margin:25px 0 !important;}
+    .deal_dashboard2_left{margin:25px 0 !important;}
+    .deal_dashboard2_one{margin:25px 0 !important;}
+    .deal_dashboard2_two{margin:25px 0 !important;}
+    .deal_dashboard2_three{margin:25px 0 !important;}
+    .deal_dashboard2_fifth{margin:25px 0 !important;}
+    .deal_dashboard2_four{margin:25px 0 !important;}
+    .deal_dashboard3_left{margin:25px 0 !important;}
+    .deal_dashboard3_one{margin:25px 0 !important;}
+    .deal_dashboard3_two{margin:25px 0 !important;}
+    .deal_dashboard2_thee{margin:25px 0 !important;}
+    .deal_dashboard2_eleven{margin:25px 0 !important;}
+    .deal_dashboard2_twelve{margin:25px 0 !important;}
+    .device{margin:70px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:46% !important;}
+    .device .arrow-right{margin-top:0 !important; top:46% !important;}
 }
 
 @media only screen and (max-height:496px) {
-    .swiper-container {   height: 336px !important; z-index:2 } 	
-            .swiper-parent
-            {
-                height: 336px !important;
-            }
+    .swiper-container {   height: 321px !important; z-index:2 } 	
+            .swiper-parent{height: 321px !important;}
+            .margin-space{margin-top:55px !important;}
+            .deal_dashboard2_done{margin:17px 0 !important;}
+    .deal_dashboard2_dtwo{margin:17px 0 !important;}
+    .deal_dashboard2_thre{margin:17px 0 !important;}
+    .deal_dashboard2_for{margin:17px 0 !important;}
+    .deal_dashboard1_six{margin:17px 0 !important;}
+    .deal_dashboard2_five{margin:17px 0 !important;}
+    .deal_dashboard2_left{margin:17px 0 !important;}
+    .deal_dashboard2_one{margin:17px 0 !important;}
+    .deal_dashboard2_two{margin:17px 0 !important;}
+    .deal_dashboard2_three{margin:17px 0 !important;}
+    .deal_dashboard2_fifth{margin:17px 0 !important;}
+    .deal_dashboard2_four{margin:17px 0 !important;}
+    .deal_dashboard3_left{margin:17px 0 !important;}
+    .deal_dashboard3_one{margin:17px 0 !important;}
+    .deal_dashboard3_two{margin:17px 0 !important;}
+    .deal_dashboard2_thee{margin:17px 0 !important;}
+    .deal_dashboard2_eleven{margin:17px 0 !important;}
+    .deal_dashboard2_twelve{margin:17px 0 !important;}
+    .device{margin:55px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:40% !important;}
+    .device .arrow-right{margin-top:0 !important; top:40% !important;}
 }
 
 @media only screen and (max-height:480px) {
-    .swiper-container {   height: 320px !important; z-index:2 } 	
-            .swiper-parent
-            {
-                height: 320px !important;
-            }
+    .swiper-container{height: 305px !important; z-index:2 } 	
+    .swiper-parent{height: 305px !important;}
+    .margin-space{margin-top:55px !important;}
+    .deal_dashboard2_done{margin:17px 0 !important;}
+    .deal_dashboard2_dtwo{margin:17px 0 !important;}
+    .deal_dashboard2_thre{margin:17px 0 !important;}
+    .deal_dashboard2_for{margin:17px 0 !important;}
+    .deal_dashboard1_six{margin:17px 0 !important;}
+    .deal_dashboard2_five{margin:17px 0 !important;}
+    .deal_dashboard2_left{margin:17px 0 !important;}
+    .deal_dashboard2_one{margin:17px 0 !important;}
+    .deal_dashboard2_two{margin:17px 0 !important;}
+    .deal_dashboard2_three{margin:17px 0 !important;}
+    .deal_dashboard2_fifth{margin:17px 0 !important;}
+    .deal_dashboard2_four{margin:17px 0 !important;}
+    .deal_dashboard3_left{margin:17px 0 !important;}
+    .deal_dashboard3_one{margin:17px 0 !important;}
+    .deal_dashboard3_two{margin:17px 0 !important;}
+    .deal_dashboard2_thee{margin:17px 0 !important;}
+    .deal_dashboard2_eleven{margin:17px 0 !important;}
+    .deal_dashboard2_twelve{margin:17px 0 !important;}
+    .device{margin:55px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:40% !important;}
+    .device .arrow-right{margin-top:0 !important; top:40% !important;}
 }
 
 /*--- scrolling height adjustment for different screens ---*/

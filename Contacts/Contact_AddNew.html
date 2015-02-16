@@ -15,15 +15,6 @@
     <script src="../AutoCompleter/jquery-ui.js" type="text/javascript"></script>
     <link href="../AutoCompleter/jquery-ui.css" rel="stylesheet" type="text/css" />
     <link href="../AutoCompleter/style.css" rel="stylesheet" type="text/css" />
-    <style>
-        @media (max-width: 320px)
-        {
-            .swiper-container {   height: 329px !important; width: 96%; z-index:2 } 	
-           
-            
-            
-        }
-    </style>
     <script type="text/javascript" charset="utf-8">
         document.addEventListener("deviceready", onDeviceReady, false);
         function onDeviceReady() {
@@ -185,7 +176,7 @@
         <img id="imgLoading" class="loading_image" />
     </div>
     <div class="maind">
-        <div class="swiper-container swiper-parent" style="margin-top: 25px;">
+        <div class="swiper-container swiper-parent margin-space">
             <div class="pagination pagination-parent">
             </div>
             <div class="swiper-wrapper">
@@ -204,7 +195,7 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <input id="AddNewContactDetailstxtFirstName" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)"/>
+                                                <input id="AddNewContactDetailstxtFirstName" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)" />
                                             </p>
                                             <div class="clear"></div>
                                         </li>
@@ -220,7 +211,7 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <input type="text" id="AddNewContactDetailstxtLastName" value="" onkeypress="return IsDoubleQuote(event)"/>
+                                                <input type="text" id="AddNewContactDetailstxtLastName" value="" onkeypress="return IsDoubleQuote(event)" />
                                             </p>
                                             <div class="clear"></div>
                                         </li>
@@ -236,7 +227,7 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <input type="text" id="AddNewContactDetailstxtEmail" value="" onkeypress="return IsDoubleQuote(event)"/>
+                                                <input type="text" id="AddNewContactDetailstxtEmail" value="" onkeypress="return IsDoubleQuote(event)" />
                                             </p>
                                             <div class="clear"></div>
                                         </li>
@@ -252,7 +243,7 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <input type="text" id="AddNewContactDetailstxtMobile" value="" onkeypress="return IsDoubleQuote(event)"/>
+                                                <input type="text" id="AddNewContactDetailstxtMobile" value="" onkeypress="return IsDoubleQuote(event)" />
                                             </p>
                                             <div class="clear"></div>
                                         </li>
@@ -268,9 +259,9 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <input type="text" id="ContactDetailstxtDesignation" value="" onkeypress="return IsDoubleQuote(event)"/>
+                                                <input type="text" id="ContactDetailstxtDesignation" value="" onkeypress="return IsDoubleQuote(event)" />
                                                 <!-- <select id="ContactDetailsddlDesignation" name="select2">
-                                                </select>-->
+                                            </select>-->
                                             </p>
                                             <div class="clear"></div>
                                         </li>
@@ -287,7 +278,7 @@
                                             </p>
                                             <p class="inp">
                                                 <span class="text_search_wrapper">
-                                                    <input type="text" id="AddNewContactDetailstxtAccountName" value="" onkeypress="return IsDoubleQuote(event)"/>
+                                                    <input type="text" id="AddNewContactDetailstxtAccountName" value="" onkeypress="return IsDoubleQuote(event)" />
                                                     <img src="../images/search.png" class="search_Image search_Image_text" id="AddNewContactDetailsImgAccountNameClick" />
                                                 </span>
                                             </p>
@@ -305,7 +296,7 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <input type="text" id="AddNewContactDetailstxtCity" value="" onkeypress="return IsDoubleQuote(event)"/>
+                                                <input type="text" id="AddNewContactDetailstxtCity" value="" onkeypress="return IsDoubleQuote(event)" />
                                             </p>
                                             <div class="clear"></div>
                                         </li>
@@ -321,7 +312,7 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <input id="AddNewContactDetailstxtState" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)"/>
+                                                <input id="AddNewContactDetailstxtState" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)" />
                                             </p>
                                             <div class="clear"></div>
                                         </li>
@@ -337,8 +328,7 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <select id="ContactDetailsddlCountry" name="select2">
-                                                </select>
+                                                <select id="ContactDetailsddlCountry" name="select2"></select>
                                             </p>
                                             <div class="clear"></div>
                                         </li>
@@ -357,7 +347,7 @@
         <label class="modal__bg" for="modal-2">
         </label>
         <div class="modal__inner">
-            <div style="float: right; width: 7%">
+            <div>
                 <label class="modal__close" for="modal-2">
                     <img src="../images/CrossSymbhol.png" />
                 </label>

@@ -10,21 +10,7 @@
     <link rel="stylesheet" href="../css/android_toast.min.css" type="text/css">
     <script src="../js/SaleswahCommon/android_toast.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
-    <style>
-        @media (max-width: 320px)
-        {
-            .swiper-container {   height: 335px !important; width: 96%; z-index:2 } 	
-            .swiper-parent
-            {
-                height: 345px !important;
-            }
-            .swiper-slide
-            {
-                height: 80px !important;
-            }
-            
-        }
-    </style>
+    
     <script type="text/javascript" charset="utf-8">
         document.addEventListener("deviceready", onDeviceReady, false);
         function onDeviceReady() {
@@ -172,7 +158,7 @@
         </div>
     </div>
     <div class="maind">
-        <div class="swiper-container swiper-parent" style="margin-top: 25px;">
+        <div class="swiper-container swiper-parent margin-space">
             <div class="pagination pagination-parent">
             </div>
             <div class="swiper-wrapper">
@@ -192,7 +178,7 @@
                                             </p>
                                             <p class="inp">
                                                 <input id="AccountADD_newAccountDetailstxtAccountName" value="" placeholder="" type="text"
-                                                    onkeypress="return IsDoubleQuote(event)" />
+                                                       onkeypress="return IsDoubleQuote(event)" />
                                             </p>
                                         </li>
                                     </ul>
@@ -222,9 +208,9 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <input type="text" id="AccountADD_newAccountDetailstxtAddress2" value="" onkeypress="return IsDoubleQuote(event)"/>
+                                                <input type="text" id="AccountADD_newAccountDetailstxtAddress2" value="" onkeypress="return IsDoubleQuote(event)" />
                                                 <!-- <select id="AccountDetailsddlChance" name="select2">
-                                                </select>-->
+                                            </select>-->
                                             </p>
                                         </li>
                                     </ul>
@@ -239,7 +225,7 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <input id="AccountADD_newAccountDetailstxtCity" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)"/>
+                                                <input id="AccountADD_newAccountDetailstxtCity" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)" />
                                             </p>
                                         </li>
                                     </ul>
@@ -254,9 +240,9 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <input id="AccountADD_newAccountDetailstxtState" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)"/>
+                                                <input id="AccountADD_newAccountDetailstxtState" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)" />
                                                 <!-- <select id="AccountDetailsddlBudgetValue" name="select2">
-                                                </select>-->
+                                            </select>-->
                                             </p>
                                         </li>
                                     </ul>
@@ -271,8 +257,7 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <select id="AccountDetailsddlCountry" name="select2">
-                                                </select>
+                                                <select id="AccountDetailsddlCountry" name="select2"></select>
                                             </p>
                                         </li>
                                     </ul>
@@ -287,9 +272,9 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <input id="AccountADD_newAccountDetailstxtPostalCode" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)"/>
+                                                <input id="AccountADD_newAccountDetailstxtPostalCode" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)" />
                                                 <!-- <select id="AccountDetailsddlBudgetStage" name="select2">
-                                                </select>-->
+                                            </select>-->
                                             </p>
                                         </li>
                                     </ul>
@@ -304,9 +289,9 @@
                                                 </label>
                                             </p>
                                             <p class="inp">
-                                                <input id="AccountADD_newAccountDetailstxtWebSite" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)"/>
+                                                <input id="AccountADD_newAccountDetailstxtWebSite" value="" placeholder="" type="text" onkeypress="return IsDoubleQuote(event)" />
                                                 <!-- <select id="AccountDetailsddlBudgetStage" name="select2">
-                                                </select>-->
+                                            </select>-->
                                             </p>
                                         </li>
                                     </ul>
@@ -322,8 +307,7 @@
                                             </p>
                                             <p class="inp">
                                                 <!--<input id="AccountDetailsIndustry" value="" placeholder="" type="text" />-->
-                                                <select id="AccountDetailsddlIndustry" name="select2">
-                                                </select>
+                                                <select id="AccountDetailsddlIndustry" name="select2"></select>
                                             </p>
                                         </li>
                                     </ul>
@@ -356,7 +340,7 @@
         <label class="modal__bg" for="modal-2">
         </label>
         <div class="modal__inner">
-            <div style="float: right; width: 7%">
+            <div>
                 <label class="modal__close" for="modal-2">
                     <img src="../images/CrossSymbhol.png" />
                 </label>

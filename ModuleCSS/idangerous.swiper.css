@@ -96,7 +96,7 @@ sizes, pagination, etc.
     .swiper-container
     {
         /* Specify Swiper's Size: */ /*width:200px; 	height: 100px;*/
-        height: 320px !important;
+        height: 320px;
     }
 }
 
