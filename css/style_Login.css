@@ -280,7 +280,6 @@ header { width:95%;padding:0px; margin:0px auto; height:104px;}
 
 @media only screen and (max-width: 480px) {
 	
-	
 .langselbx{ float:left; width:66% !important; }
 .langselbx select{ width:90%}
 .logcopytxt{ font-size:12px; padding:10px 0px 0px 0px; color:#119467; float:left; width:48%; margin-left:3%}

@@ -485,6 +485,90 @@
     }
 }
 
+@media only screen and (max-width: 414px){
+    .dtform ul li input {
+        width: 90% !important;
+    }
+    .listform ul li input {
+        width: 90% !important;
+    }
+    .listform ul li label {
+    font-size: 14px !important;
+}
+
+ .detail_nav1 {
+    margin:8px 6% 0 !important;
+    }
+    .detail_nav2 {
+    margin:8px 5% 0 !important;
+    }
+    .detail_nav3 {
+    margin:8px 6% 0 !important;
+    }	
+    .dtform ul li label {
+    font-size: 14px !important;
+}
+        .detail_nav1 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav2 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav3 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav1_1 figure figcaption{
+        font-size:14px !important;
+    }
+    .detail_nav1_2 figure figcaption{
+        font-size:14px !important;
+    }
+	
+ /*.swiper-slide div figure img{ width:30%;}*/
+ 	.device{
+        width:400px !important;
+    }
+	.device {
+    font-size:13px;	
+   height: 355px;
+    position: relative;
+}  
+  
+            .hedmid{
+        width:50% !important;
+    }
+            .text_search_wrapper{
+        width:99% !important;
+    }
+            #AddNewTaskDetailstxtAccountName{
+        width:77% !important;
+    } 
+            #ProposalDetailstxtContactName {
+    font-size: 14px;
+    width: 75% !important;
+}
+            .dtform ul li p.inp a{
+       font-size:14px !important;
+   }
+            #AddNewDealDetailstxtAccountName{
+    font-size: 14px;
+    width: 77% !important;
+   }
+            #AppointmentAddNewtxtAddGuest{
+    font-size: 14px;
+    width: 77% !important;
+   }
+            .dlist ul li a h4{
+        font-size:16px !important;
+    }
+    .dlist ul li p{
+        font-size:14px !important;
+    }
+    .dlist ul li span{
+        font-size:14px !important;
+    }
+}
+
 @media only screen and (max-width: 400px){
     .dtform ul li input {
         width: 90% !important;
@@ -650,6 +734,98 @@
     .dlist ul li span{
         font-size:14px !important;
     }
+}
+
+@media only screen and (max-width: 375px){
+.dtform ul li input {
+        width: 90% !important;
+    }
+.dtform ul li select {
+        width: 100% !important;
+    }
+
+.dtform ul li textarea {
+        width: 88% !important;
+    }
+
+ .detail_nav1 {
+    margin:8px 7% 0 !important;
+    }
+    .detail_nav2 {
+    margin:8px 5% 0 !important;
+    }
+    .detail_nav3 {
+    margin:8px 7% 0 !important;
+    }	
+    .dtform ul li label {
+    font-size: 14px !important;
+}
+
+    .listform ul li input {
+        width: 90% !important;
+    }
+    .listform ul li label {
+    font-size: 14px !important;
+}
+        .detail_nav1 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav2 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav3 figure figcaption{
+        font-size:14px !important;
+    }
+        .detail_nav1_1 figure figcaption{
+        font-size:14px !important;
+    }
+    .detail_nav1_2 figure figcaption{
+        font-size:14px !important;
+    }
+	
+ /*.swiper-slide div figure img{ width:30%;}*/
+ 	.device{
+        width:360px !important;
+    }
+	.device {
+    font-size:13px;	
+   height: 355px;
+    position: relative;
+}  
+        .hedmid{
+        width:50% !important;
+    }
+        .text_search_wrapper{
+        width:99% !important;
+    }
+        #AddNewTaskDetailstxtAccountName{
+        width:76% !important;
+    } 
+        #ProposalDetailstxtContactName {
+    font-size: 14px;
+    width: 73% !important;
+}
+        .dtform ul li p.inp a{
+       font-size:14px !important;
+   }
+        #AddNewDealDetailstxtAccountName{
+    font-size: 14px;
+    width: 76% !important;
+   }
+        #AppointmentAddNewtxtAddGuest{
+    font-size: 14px;
+    width: 76% !important;
+   }
+    .dlist ul li a h4{
+        font-size:16px !important;
+    }
+    .dlist ul li p{
+        font-size:14px !important;
+    }
+    .dlist ul li span{
+        font-size:14px !important;
+    }
+	.LoginBtnClass{ width:100%!important;}
 }
 
 @media only screen and (max-width: 360px){
@@ -1001,6 +1177,59 @@
             {
                 height: 576px !important;
             }
+            .margin-space{margin-top:55px !important;}
+            .deal_dashboard2_done{margin:30px 0 !important;}
+    .deal_dashboard2_dtwo{margin:30px 0 !important;}
+    .deal_dashboard2_thre{margin:30px 0 !important;}
+    .deal_dashboard2_for{margin:30px 0 !important;}
+    .deal_dashboard1_six{margin:30px 0 !important;}
+    .deal_dashboard2_five{margin:30px 0 !important;}
+    .deal_dashboard2_left{margin:30px 0 !important;}
+    .deal_dashboard2_one{margin:30px 0 !important;}
+    .deal_dashboard2_two{margin:30px 0 !important;}
+    .deal_dashboard2_three{margin:30px 0 !important;}
+    .deal_dashboard2_fifth{margin:30px 0 !important;}
+    .deal_dashboard2_four{margin:30px 0 !important;}
+    .deal_dashboard3_left{margin:30px 0 !important;}
+    .deal_dashboard3_one{margin:30px 0 !important;}
+    .deal_dashboard3_two{margin:30px 0 !important;}
+    .deal_dashboard2_thee{margin:30px 0 !important;}
+    .deal_dashboard2_eleven{margin:30px 0 !important;}
+    .deal_dashboard2_twelve{margin:30px 0 !important;}
+    .device{margin:90px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:52% !important;}
+    .device .arrow-right{margin-top:0 !important; top:52% !important;}
+}
+
+@media only screen and (max-height:667px) {
+    .swiper-container {   height: 465px !important; z-index:2 } 	
+            .swiper-parent
+            {
+                height: 465px !important;
+            }
+            .margin-space{margin-top:55px !important;}
+            .deal_dashboard2_done{margin:30px 0 !important;}
+    .deal_dashboard2_dtwo{margin:30px 0 !important;}
+    .deal_dashboard2_thre{margin:30px 0 !important;}
+    .deal_dashboard2_for{margin:30px 0 !important;}
+    .deal_dashboard1_six{margin:30px 0 !important;}
+    .deal_dashboard2_five{margin:30px 0 !important;}
+    .deal_dashboard2_left{margin:30px 0 !important;}
+    .deal_dashboard2_one{margin:30px 0 !important;}
+    .deal_dashboard2_two{margin:30px 0 !important;}
+    .deal_dashboard2_three{margin:30px 0 !important;}
+    .deal_dashboard2_fifth{margin:30px 0 !important;}
+    .deal_dashboard2_four{margin:30px 0 !important;}
+    .deal_dashboard3_left{margin:30px 0 !important;}
+    .deal_dashboard3_one{margin:30px 0 !important;}
+    .deal_dashboard3_two{margin:30px 0 !important;}
+    .deal_dashboard2_thee{margin:30px 0 !important;}
+    .deal_dashboard2_eleven{margin:30px 0 !important;}
+    .deal_dashboard2_twelve{margin:30px 0 !important;}
+    .device{margin:90px auto 5px !important;}
+    .device .arrow-left{margin-top:0 !important; top:52% !important;}
+    .device .arrow-right{margin-top:0 !important; top:52% !important;}
+	
 }
 
 @media only screen and (max-height:640px) {
